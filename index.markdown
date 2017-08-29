@@ -7,9 +7,9 @@ published: true
 
 During this course students will gain necessary skills in this introduction to the fundamentals of website structure, content design, and navigation. Areas of focus will be directory structure, visual design, user navigation, audio/video integration and domain management. This course is open to all university students and geared to non-majors.
 
-Make sure you check out our [__Moodle Page__](https://moodle.umt./edu) which contains the **syllabus** and **schedule** for this semester.
+Make sure you check out our [__Moodle Page__](https://moodle.umt.edu) which contains the **syllabus** and **schedule** for this semester, and where you'll receive your grades.
 
-You will also need to continually view this site's [__GitHub Repo__](https://github.com/Media-Ed-Online/intro-web-dev) as you'll access our *Issues,* *Project Boards,* and *Wiki* for each assignment.
+You will also need to continually view this site's [__GitHub Repo__](https://github.com/Media-Ed-Online/intro-web-dev) as you'll access our *Issues Board,* *Projects,* and *Wiki* for each assignment.
 <img src="./img/git-links.jpg" style="Width: 100%" />
 
 
