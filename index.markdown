@@ -3,9 +3,9 @@ layout: index
 published: true
 ---
 
-# *Welcome to Principles of Interactive Media!*
+# *Welcome to Introduction to Web Design & Development!*
 
-This course is designed to help students gain the skill sets necessary to successfully create work in the constantly evolving digital environment. It covers the fundamentals of interactive website elements, prototyping, and game development, with a focus on evaluating user testing and addressing user challenges in these media.
+During this course students will gain necessary skills in this introduction to the fundamentals of website structure, content design, and navigation. Areas of focus will be directory structure, visual design, user navigation, audio/video integration and domain management. This course is open to all university students and geared to non-majors.
 
 The [**syllabus**]({{site.baseurl}}/modules/course-info/Syllabus-mart341/) contains more information about the course, as well as student expectations.
 
@@ -18,7 +18,7 @@ _Contact:_ [**justine.evans@umontana.edu**](mailto:justine.evans@umontana.edu)
 
 _Office Hours:_ By Appointment
 
-_Slack Channel:_ [**UMMediaArts**](https://ummediaarts.slack.com/) #princ-int-media
+_Slack Channel:_ [**UMMediaArts**](https://ummediaarts.slack.com/) #intro-web-dev
 
 
 # Additional Information
