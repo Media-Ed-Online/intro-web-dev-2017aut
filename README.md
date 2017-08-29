@@ -1,12 +1,11 @@
 # MART 341 - Web Development
 
-This repository is the web site for the University of Montana, School of Media Art's _Web Development_ (mart341) course.
+This repository is the web site for the University of Montana, School of Media Art's _Introduction to Web Design & Development_ (MART341) course.
 
-### Designed by
-- Professor Michael Musick
-- E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
-- Office: McGill Hall, 224.
+### Instructed by
+- Justine Evans
+- E-Mail: [jusitne.evans@umontana.edu](mailto:justine.evans@umontana.edu).
 
 ## Links
-- [The course website](https://montana-media-arts.github.io/mart341-webDev/)
-- [The course resources repo](https://github.com/Montana-Media-Arts/341-work)
+- [The course website](https://media-ed-online.github.io/princ-int-media)
+- [The previous semester's website](https://montana-media-arts.github.io/mart341-webDev/) (c)[Michael Musick](https://github.com/michaelmusick)
