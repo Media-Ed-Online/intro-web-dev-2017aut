@@ -1,0 +1,66 @@
+.navbar.navbar-default {
+	margin-bottom: 0;
+}
+
+.p2pu-logo {
+	z-index: 200;
+	position: absolute;
+	background-color: $brand-dark;
+	// background-color: $brand-accent;
+	height: 101px;
+	width: 130px;
+	right: 0;
+	top: 0;
+	// left: 0px;
+
+	img {
+		// width: 75px;
+		// min-height: 100%;
+		// max-height: 200%;
+		height: 90px;
+		margin: 0;
+		margin-top: -10px;
+		margin-left: -25px;
+		border-style: none;
+		padding: 0;
+	}
+}
+
+@media (max-width: $screen-sm - 1) {
+	.p2pu-logo {
+		height: 50px;
+		left: 0px;
+		img {
+			height: 50px;
+			width: 40px;
+			margin-top: -10px;
+		}
+	}
+}
+
+// .navbar-nav {
+// 	margin-left: 100px;
+// 	margin-right: 100px;
+// }
+
+.navbar {
+	padding-right: 100px;
+	// padding-right: 100px;
+}
+
+.navbar .container-fluid {
+	margin-left: 20%;
+	max-width: 100%;
+	// min-height: 129px;
+}
+
+
+@media (max-width: $screen-sm - 1) {
+	.navbar {
+		padding-right: 0px;
+		.container-fluid {
+			min-height: 0px;
+		}
+	}
+
+}

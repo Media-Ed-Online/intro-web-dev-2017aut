@@ -1,0 +1,216 @@
+body {
+	background-color: $brand-dark;
+}
+
+.relative {
+	position: relative;
+}
+
+.background-white {
+	padding: 60px 0;
+	background-color: $white;
+}
+
+.navbar-brand {
+	padding: 12.5px 15px;
+}
+
+.p2pu-footer {
+	margin-top: 0;
+}
+
+.sidebar {
+	// position: absolute;
+	z-index: 10;
+	font-family: $font-family-sans-serif;
+	padding: 60px 0;
+	background-color: $brand-dark;
+	font-size: $font-size-ex-small;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar li {
+	line-height: 4;
+	padding-left: 60px;
+	position: relative;
+	@include transition(color, 0.3s, linear);
+
+	a {
+		color: $nav-text;
+	}
+}
+
+.sidebar li:hover {
+	background-color: $link-color;
+
+	a:hover, a:focus {
+		text-decoration: none;
+		color: $link-hover-color;
+	}
+}
+
+.sidebar li.active {
+	color: $brand-light;
+	background-color: $brand-primary;
+}
+
+.sidebar li.active a:hover {
+	color: $link-hover-color;
+}
+
+.sidebar li:before {
+	content: "";
+	border-left: 3px solid #aab0bf;
+	position: absolute;
+	left: 40px;
+	height: 100%;
+	top: 0;
+}
+
+.sidebar li.first:before {
+	height: 50%;
+	top: 50%;
+}
+
+.sidebar li.last:before {
+	height: 50%;
+	top: 0;
+}
+
+.sidebar li.first.last:before {
+	height: 0;
+	top: 0;
+}
+
+.sidebar li a {
+	display: block;
+	line-height: 4;
+	text-transform: uppercase;
+	@include transition(color, 0.3s, linear);
+}
+
+.sidebar li a:before {
+	content: "\f005";
+	font-family: FontAwesome;
+	color: $link-color;
+	position: absolute;
+	left: 29px;
+	line-height: 1.7;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 3px solid $gray;
+	top: 18px;
+	background-color: white;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.sidebar li.active a:before {
+	content: "\f04b";
+}
+
+.sidebar li a:after {
+	content: "";
+
+}
+
+
+.pagination-section {
+
+	margin: 1em 0;
+}
+
+.pagination-section .title {
+	color: $gray;
+	line-height: 2;
+}
+
+.pagination-section {
+	.next, .prev {
+		text-transform: uppercase;
+		color: $link-hover-color;
+	}
+}
+
+.pagination-section .next:after {
+	content: "\f0da";
+	font-family: FontAwesome;
+}
+
+.pagination-section .prev:before {
+	content: "\f0d9";
+	font-family: FontAwesome;
+}
+
+.sidebar .pagination-section {
+	padding-left: 60px;
+}
+
+.due-date {
+	margin-bottom: 2em;
+	// color: rgb(255, 68, 68);
+	color: $brand-compliment-2;
+	padding-right: $padding-large-horizontal;
+	// line-height: 2;
+}
+
+.active-date-range {
+	margin-bottom: 0.5em;
+}
+
+.content {
+	line-height: 2;
+
+}
+
+.content a {
+	color: $link-color-content;
+}
+
+blockquote {
+	font-size: initial;
+	font-style: italic;
+	line-height: 1.9;
+}
+
+#ghUsername-box {
+	position: relative;
+	background: $gray-lighter;
+	padding: 10px 20px;
+
+	.ghUsername-set {
+		@extend .h2;
+		padding: 7px 15px;
+		display: block;
+		margin: 0;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+	}
+	.label {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+.gh-username-set {
+	input {
+		padding: 4px;
+	}
+	button {
+		margin-top: -5px;
+	}
+}
+
+
+.final-horizontal-ruler {
+	margin-top: 10em;
+}
