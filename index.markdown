@@ -10,7 +10,7 @@ During this course students will gain necessary skills in this introduction to t
 Make sure you check out our [__Moodle Page__](https://moodle.umt./edu) which contains the **syllabus** and **schedule** for this semester.
 
 You will also need to continually view this site's [__GitHub Repo__](https://github.com/Media-Ed-Online/intro-web-dev) as you'll access our *Issues,* *Project Boards,* and *Wiki* for each assignment.
-![GitHub Rep Links](./img/git-links.jpg)
+<img src="./img/git-links.jpg" style="Width: 100%" />
 
 
 # Instructor: Justine Evans
