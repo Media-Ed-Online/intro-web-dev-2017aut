@@ -3,8 +3,6 @@ title: Course Overview
 module: 1
 ---
 
-# HAHAHAHAHAHAHA
-
 # Week 1 Overview <br /> Welcome to Web Development (MART 341)
 
 ## Overview of the Course
