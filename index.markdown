@@ -7,10 +7,11 @@ published: true
 
 During this course students will gain necessary skills in this introduction to the fundamentals of website structure, content design, and navigation. Areas of focus will be directory structure, visual design, user navigation, audio/video integration and domain management. This course is open to all university students and geared to non-majors.
 
-The [**syllabus**]({{site.baseurl}}/modules/course-info/Syllabus-mart341/) contains more information about the course, as well as student expectations.
+Make sure you check out our [__Moodle Page__](https://moodle.umt./edu) which contains the **syllabus** and **schedule** for this semester.
 
+You will also need to continually view this site's [__GitHub Repo__](https://github.com/Media-Ed-Online/intro-web-dev) as you'll access our *Issues,* *Project Boards,* and *Wiki* for each assignment.
+![GitHub Rep Links](./img/git-links.jpg)
 
-<!--<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_mgVJEgRVdA" frameborder="0" allowfullscreen></iframe></div>-->
 
 # Instructor: Justine Evans
 
