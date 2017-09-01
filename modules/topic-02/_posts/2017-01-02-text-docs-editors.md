@@ -1,6 +1,6 @@
 ---
-title: Course Layout
-module: 00
+title: Text Docs & Editors
+module: 02
 ---
 
 ## Part 1:

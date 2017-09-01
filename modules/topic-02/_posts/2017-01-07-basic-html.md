@@ -1,6 +1,6 @@
 ---
-title: Course Layout
-module: 00
+title: Basic HTML
+module: 02
 ---
 
 ## Part 1:

@@ -1,6 +1,6 @@
 ---
-title: Course Layout
-module: 00
+title: The Internet
+module: 01
 ---
 
 ## Part 1:
