@@ -17,9 +17,7 @@ You will also need to continually view this site's [__GitHub Repo__](https://git
 
 _Contact:_ [**justine.evans@umontana.edu**](mailto:justine.evans@umontana.edu)
 
-_Office Hours:_ By Appointment
-
-_Slack Channel:_ [**UMMediaArts**](https://ummediaarts.slack.com/) #intro-web-dev
+_About:_ Instructor at the University of Montana. MFA Candidate, Media Arts. Professional de-constructor, media artist, digital designer, and avid experimenter. Avid connoisseur of B-movies and Jonny Cash.
 
 
 # Additional Information
