@@ -13,7 +13,7 @@
 		<div class="collapse navbar-collapse" id="p2pu-menu">
 			<ul class="nav navbar-nav">
 				<li>
-					<a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
+					<a href="{{ site.baseurl }}/"><i class="fa fa-home fa-lg"></i></a>
 				</li>
 				{% for module in site.data.course.modules %}
 					{% assign first_post = site.categories[module]|reverse|first %}
@@ -24,6 +24,12 @@
 						</a>
 					</li>
 				{% endfor %}
+				<li>
+					<a href="https://github.com/Media-Ed-Online/intro-web-dev"><i class="fa fa-github fa-lg"></i></a>
+				</li>
+				<li>
+					<a href="http://ummediaarts.slack.com/"><i class="fa fa-slack fa-lg"></i></a>
+				</li>
 				<!--
 				<li>
 					<a href="https://github.com/Montana-Media-Arts/341-work" target="_blank">Resource Repo</a>
