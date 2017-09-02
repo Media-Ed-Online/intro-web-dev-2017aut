@@ -30,7 +30,9 @@ In this class, we will be using the following text file types;
 - Cascading Style Sheet (CSS); `.css`
 - JavaScript; `.js`
 
-Let's look at the first type, Markdown or `.md` files, using a text editor.
+This Topic, we'll look at the first type, Markdown or `.md` files, using a text editor.
+
+At it's end, we'll even begin looking at `.html` files and beginning structure.
 
 
 ### What's a text editor?
