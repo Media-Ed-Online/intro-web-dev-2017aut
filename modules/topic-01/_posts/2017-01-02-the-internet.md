@@ -41,3 +41,7 @@ Let’s watch some videos to better understand what the “Internet” is. Part 
 
 ### The Internet: HTTP & HTML
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kBXQZMmiA4s" frameborder="0" allowfullscreen></iframe></div>
+
+
+# { TODO: }
+Please watch all videos listed above.
