@@ -45,17 +45,15 @@ There are many types of text editors, each optimized for specific types of tasks
 
 ### Atom (Text Editor for Development)
 
-For this class, we need a text editor that is optimized for web development and code. You are welcome to use whatever text editor you like for this course, however, we will be using GitHub's open-source [Atom](https://atom.io) for our videos and tutorials, and it may behove you to use it as well (espeically beginners).
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gbq9ZWXtyK4" frameborder="0" allowfullscreen></iframe></div>
+For this class, we need a text editor that is optimized for web development and code. You are welcome to use whatever text editor you like for this course, however, we will be using GitHub's open-source [Atom](https://atom.io) for our videos and tutorials, and it may behoove you to use it as well (especially beginners).
 
 
 #### Installation Guide
-- For macOS
+##### For macOS
 1. Download the software from the main [atom.io](https://atom.io) site.
 2. Then drag the application that was downloaded from the Downloads folder to the Applications folder.
 
-- For Windows
+##### For Windows
 1. Download the windows installer from the main [atom.io](https://atom.io) site.
 2. **IMPORTANT:** when the download finishes, do not simply double-click from the bottom of the browser window. Instead, you first need to open the file in explorer. To do this you can either open explorer and navigate to the folder where it downloaded (likely "Downloads") _OR_ right-click or two-finger-click the file from the browser and select "Show in Folder".
 ![Pic demo-ing "show in folder" command](../imgs/showINFinder.png "Demo of show in folder.")
@@ -68,7 +66,7 @@ Most text editors allow you to download additional packages created by the commu
 
 ##### Theme
 **Themes** customize the look and feel of the editor.
-1. Navigate to the "Atom" main menu > Preferences... > Install.  
+1. Navigate to the "Atom" main menu > Preferences... > Install.
 2. To the right of the search bar, select "Themes."
 3. Search for the **"newbound-dark-syntax"** theme. Install.
 4. Navigate to "Themes" on the side menu.
@@ -78,18 +76,20 @@ Most text editors allow you to download additional packages created by the commu
 
 ##### Packages
 Packages add functionality to your editor.
-1. Navigate to the "Atom" main menu > Preferences... > Install.  
+1. Navigate to the "Atom" main menu > Preferences... > Install.
 2. Search for these packages. Install.
 - _highlight-selected_ - Highlights all occurrences of a selected word. This is useful for debugging.
 - _fonts_ - Many fonts that can easily be selected for use in Atom.
 - _file-icons_ - Displays file type icons next to files in the sidebar.
 - _language-markdown_ - Adds syntax support to themes without markdown syntax.
 - _todo-show_ - Tools for showing “TODO”-s in code.
-- _base linter_ - Base package to show code errors. Couple with *linter_htmlhint* and *linter_csslint*
+- _base linter_ - Base package to show code errors. Couple with *linter_htmlhint* and *linter_stylelint*
 - _open-recent_ - Adds “open recent” functionality to the File menu in Atom.
-- _pigments_ Highlights color values in files.
+- _pigments_ 0 Highlights color values in files.
 
-More can be found on the [scotch websites discussion of Atom](https://scotch.io/bar-talk/best-of-atom-features-plugins-acting-like-sublime-text)
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/232293574?color=1CCDCA&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
+
+More can be found on the [scotch websites discussion of Atom](https://scotch.io/bar-talk/best-of-atom-features-plugins-acting-like-sublime-text) if you're interested.
 
 
 # { TODO: }
