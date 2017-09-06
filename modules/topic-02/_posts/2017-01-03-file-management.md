@@ -30,7 +30,7 @@ Please watch the video below, which does a very good job of describing proper fi
 <br />
 
 ### /web-dev-hw
-You need to make a new folder on your local drive for your homework. This is the directory that will synch with your GitHub account. Watch the video under the {TODO:} lable to continue.
+You need to make a new folder on your local drive for your homework. This is the directory that will synch with your GitHub account. Watch the video under the **{TODO:}** lable to continue.
 
 
 

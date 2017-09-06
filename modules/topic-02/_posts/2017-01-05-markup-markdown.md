@@ -13,9 +13,9 @@ Structure is defined for a processor through the use of tags embedded directly i
 One of the original markup languages, and one which you will be using extensively as a web developer during this course is HTML or HyperText Markup Language. But to start, let's look at another, slightly simpler, and very popular markup language known as **Markdown.**
 
 ### Markdown
-Just as HTML, markdown files encourage the writer to focus on content and structure, as opposed to formatting. In fact, this entire course has been developed for the web using markdown files. In other words, at this very moment, you are reading a markdown file.
+Just as in HTML, markdown files encourage the writer to focus on content and structure, as opposed to formatting. In fact, this entire course has been developed for the web using markdown files. In other words, at this very moment, you are reading a markdown file.
 
-A markdown file typically uses the `.md` extension. This file type allows the writer to identify portions of the text as headers (at various levels), paragraphs, bold, italic, links, code, lists, and tables. It also allows the writer to easily include images through links in the document. Below is an example of markdown. There is also an image showing markdown text in the left of an Atom pane, and the markdown preview in the right Atom pane.
+A markdown file typically uses the `.md` extension. This file type allows the writer to identify portions of the text as headers (at various levels), paragraphs, bold, italic, links, code, lists, and tables. It also allows the writer to easily include images through links in the document. Below is an example of markdown.
 
 <p data-height="600" data-theme-id="30567" data-slug-hash="yowroQ" data-default-tab="html,result" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="Topic-02: Markdown " class="codepen"></p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
