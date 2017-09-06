@@ -10,7 +10,7 @@ Let's just touch on using HTML or the **HyperText Markup Language.**
 
 HTML is the standard markup language for creating web pages and web applications. HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visual or audible web pages. HTML was first proposed in 1990 by Tim Berners-Lee, then a contract physicist at CERN.
 
-For more info, quikly read [Amy Hisson's "History of HTML"](http://amyhissom.com/HTML5-CSS3/history.html#1).
+For more info, quickly read [Amy Hisson's "History of HTML"](http://amyhissom.com/HTML5-CSS3/history.html#1).
 
 ### Elements & Tags
 We will begin working in-depth with HTML in the next Topic. For now, I want you to just have basic understanding of how HTML renders.

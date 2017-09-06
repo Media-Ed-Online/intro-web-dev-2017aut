@@ -22,9 +22,9 @@ Now that you know the basics of HTML it is time to write an HTML document and ge
 #### Opening the File in a Browser
 Wow, that's an incredible first page. Time to view it in a browser! You have a few options to open this file:
 
-1. Double click the `index.html` file, as this should open the file in your default web-browser.
-2. Simply Drag the file to the browser you want it to open in.
-4. Install the "open-in-browser" package for Atom and then either press `cntrl` + `opt` + `q` (macOS), `cntrl` + `alt` + `q` (PC), or from the command palate type "Open in Browser."
+- Double click the `index.html` file, as this should open the file in your default web-browser.
+- Simply Drag the file to the browser you want it to open in.
+- Install the "open-in-browser" package for Atom and then either press `cntrl` + `opt` + `q` (macOS), `cntrl` + `alt` + `q` (PC), or from the command palate type "Open in Browser."
 
 You should now see your file open in a web browser, looking something like this.
 ![Example of the first web page](../imgs/index-browser-view.png)
