@@ -39,7 +39,7 @@ In order for our repo to be served, we need to tell GitHub that this is a “Git
 8. We simply need to add the directory where our new `index.html` file lives in our repo. Select the URL in the address bar, and add `project-1/` to the end of the address. This should open up your `index.html` page at an address that looks like `https://yourusername.github.io/web-dev-hw/project-1/`.
 ![Live WebPage](../imgs/gh_first_live_page.png)
 
-For all of the future pages you will write for homework, the URL will be `https://yourusername.github.io/341-work/` + `the-homework-directory` you are currently working in.
+For all of the future pages you will write for homework, the URL will be `https://yourusername.github.io/web-dev-hw/` + `the-homework-directory` you are currently working in.
 
 
 # { TODO: }
