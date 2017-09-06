@@ -12,7 +12,7 @@ Maintaining organized files and consistent folder structure is key to creating e
 Web designers use all types of files to create sites, from `.html` to `.css` to `.php` and dozens of others. How files are created and saved will affect how they are processed; a `.css` file will not have the same capabilities of a `.html` file, and vice versa. Most file types and their languages are designed to work _together,_ not singularly, and need to be directed to each other.
 
 ### Folders
-We organize these different files into groups, just like you do with your other non-web-based files. We commonly refer to the containers of thes files as "folders," because that's exactly as they function; folios containing related files. In addition, most operating systems represent these folders with graphic icons (folders), so its reasonable that we call them that.
+We organize these different files into groups, just like you do with your other non-web-based files. We commonly refer to the containers of these files as "folders," because that's exactly as they function; folios containing related files. In addition, most operating systems represent these folders with graphic icons (folders), so its reasonable that we call them that.
 
 But once we branch away from our desktop however, this term is a little less applicable. Consider this URL:
 
@@ -29,7 +29,7 @@ Please watch the video below, which does a very good job of describing proper fi
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RniGO9Ek6yY" frameborder="0" allowfullscreen></iframe></div>
 <br />
 
-### /web-dev-hw/
+### /web-dev-hw
 You need to make a new folder on your local drive for your homework. This is the directory that will synch with your GitHub account. Watch the video under the {TODO:} lable to continue.
 
 
