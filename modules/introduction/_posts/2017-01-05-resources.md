@@ -50,7 +50,7 @@ Additional material has been linked from or adapted from:
 ##### Course Videos
 - Music: "Too Cool" Kevin MacLeod (incompetech.com)
 Licensed under Creative Commons: By Attribution [3.0 License](http://creativecommons.org/licenses/by/3.0/)
-- Textures: [Designed by Freepik](http://www.freepik.com/free-vector/grunge-textures-collection_1080208.htm')
+- Textures: [Designed by Freepik](http://www.freepik.com/free-vector/grunge-textures-collection_1080208.htm)
 
 ##### Template
 The course website has been adapted and built from [P2PU.org's](http://howto.p2pu.org/) [course-in-a-box](https://github.com/p2pu/course-in-a-box/).
