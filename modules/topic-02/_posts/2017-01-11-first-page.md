@@ -42,5 +42,16 @@ Your code should look like the following:
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 
+### And For Your Assignment...
+For your assigment and the completing of _My First Web Page!_, we want you to add one of your favorties from this list:
+- Haiku
+- Long Quote (100+ Characters
+- Song Lyrics (Bridge or Verse)
+
+Using what you now know about HTML and web pages, try and structure the line breaks of your choice using either `<p>` and `<br />` or `<pre>` elements. Here's mine:
+<p data-height="600" data-theme-id="30567" data-slug-hash="xLogmW" data-default-tab="html,result" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="Topic-02: My First Web Page! Pt. 4" class="codepen"></p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+[See it in action!](https://justineevansum.github.io/web-dev-hw/project-1/) on my GitHub.io site.
+
 # { TODO: }
-Navigate back to your browser and refresh your web page (`cmd` + `r` in macOS, `cntrl` + `r` in Window.). You should see the update in your code reflected in the browser.
+Navigate back to your browser and refresh your web page (`cmd` + `r` in macOS, `cntrl` + `r` in Windows) as you work on your assignment. You should see the updates in your code reflected in the browser.

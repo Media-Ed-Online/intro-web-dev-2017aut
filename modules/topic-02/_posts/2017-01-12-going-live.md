@@ -22,7 +22,7 @@ This is your _baseurl:_
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allowfullscreen></iframe></div>
 
 
-# { TODO: } <br />Make Our Repo a Webpage
+### <br />Make Our Repo a Webpage
 
 In order for our repo to be served, we need to tell GitHub that this is a “GitHub pages project site."
 
