@@ -86,7 +86,7 @@ Packages add functionality to your editor.
 - _atom-html-preview_ - Allows preview of HTML files in Atom.
 - _base linter_ - Base package to show code errors. Couple with *linter-htmlhint* and *linter-stylelint*
 - _open-recent_ - Adds “open recent” functionality to the File menu in Atom.
-- _pigments_ 0 Highlights color values in files.
+- _pigments_ - Highlights color values in files.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/232293574?color=1CCDCA&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
