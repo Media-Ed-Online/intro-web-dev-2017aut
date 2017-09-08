@@ -83,7 +83,8 @@ Packages add functionality to your editor.
 - _file-icons_ - Displays file type icons next to files in the sidebar.
 - _language-markdown_ - Adds syntax support to themes without markdown syntax.
 - _todo-show_ - Tools for showing “TODO”-s in code.
-- _base linter_ - Base package to show code errors. Couple with *linter_htmlhint* and *linter_stylelint*
+- _atom-html-preview_ - Allows preview of HTML files in Atom.
+- _base linter_ - Base package to show code errors. Couple with *linter-htmlhint* and *linter-stylelint*
 - _open-recent_ - Adds “open recent” functionality to the File menu in Atom.
 - _pigments_ 0 Highlights color values in files.
 
