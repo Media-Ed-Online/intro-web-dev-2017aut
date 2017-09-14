@@ -1,6 +1,7 @@
 ---
 title: Your First Web Page!
-module: 02
+module: 03
+
 ---
 
 ## Your First Web Page:

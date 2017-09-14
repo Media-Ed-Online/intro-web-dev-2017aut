@@ -1,6 +1,6 @@
 ---
 title: Basic HTML
-module: 02
+module: 03
 ---
 
 ## Beginning in HTML

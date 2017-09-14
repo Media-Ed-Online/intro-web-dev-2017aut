@@ -1,6 +1,6 @@
 ---
 title: HTML Paragraphs
-module: 02
+module: 03
 ---
 
 ## More on Paragraphs:

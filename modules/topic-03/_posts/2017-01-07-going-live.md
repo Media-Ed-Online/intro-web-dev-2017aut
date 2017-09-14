@@ -1,6 +1,6 @@
 ---
 title: Going Live
-module: 02
+module: 03
 ---
 
 ## Showing the World:<br /> Going Live

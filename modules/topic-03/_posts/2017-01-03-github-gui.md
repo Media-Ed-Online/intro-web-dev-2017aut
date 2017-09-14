@@ -1,6 +1,6 @@
 ---
 title: GitHub GUI
-module: 02
+module: 03
 ---
 
 ## Git GUI Application -<br /> GitHub Desktop:
