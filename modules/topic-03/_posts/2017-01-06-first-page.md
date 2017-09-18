@@ -10,8 +10,8 @@ module: 03
 Now that you know the basics of HTML it is time to write an HTML document and get it up on the web!
 
 ### index.html
-1\. In Atom, create a new file and save it in /project-1 as (and _only_ as) **index.html**. <br />
-![Project 1 Directory in Atom](../imgs/index-create.png)
+1\. In Atom, create a new file and save it in `/project-1` as (and _only_ as) **index.html**. <br />
+![Project 1 Directory in Atom](../imgs/p1-atom-directory.png)
 
 2\. **Copy and paste** the document structure below directly into your `index.html`. We will go over this in-depth next topic.
 <p data-height="400" data-theme-id="30567" data-slug-hash="brJNRa" data-default-tab="html" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="brJNRa" class="codepen"></p><script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
