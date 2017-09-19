@@ -4,7 +4,7 @@ module: 01
 ---
 
 ## Using GitHub
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 To complete the assignment for this topic, you'll need to have registered for a free GitHub account and respond to an “issue” in the class repository.
 

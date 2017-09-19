@@ -4,7 +4,7 @@ module: 04
 ---
 
 ## Elements in the Head:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 There are a number of elements which we can consider as **required** in the head element, and others that you are _encouraged_ to include. These elements tell the browser and processor information about the HTML document, such as the title, author, and publication date.
 
@@ -15,7 +15,7 @@ The _title_ tag defines the title of a document. This action;
 
 - defines a title in the browser toolbar
 - provides a title for the page when it is added to favorites
-- displays a title for the page in _search-engine results_
+- displays a title for the page in search-engine results
 
 You cannot have more than one title element. However, you _must_ have the title element for the document to validate as HTML. **This is the only required element in the head.**
 

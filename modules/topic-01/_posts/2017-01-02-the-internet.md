@@ -4,7 +4,7 @@ module: 01
 ---
 
 ## The Internet:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 Let’s watch some videos to better understand what the “Internet” is. Part of web development is understanding _how_ to get your web site online, and to make sure it stays online. This means you need to have a basic understanding of what the Internet actually _is,_ and how it works. These videos cover a number of higher-level topics intended to help you understand how data flows from you to me. Take a look!
 

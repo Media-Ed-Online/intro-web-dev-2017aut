@@ -4,7 +4,7 @@ module: 02
 ---
 
 ## Marking Things Up, Down, and All Around:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 A **markup language** is a system for annotating a document in a way that is syntactically distinguishable from the text. Markup languages tend to encourage writers to focus on _content_ and _structure_ before concerning themselves with presentation.
 

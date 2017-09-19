@@ -4,7 +4,7 @@ module: 04
 ---
 
 ## Elements in the Body:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 The _body element_ is where all of the “meat & potatoes” (if you will) of the site gets placed. This is the data that is rendered by the browser and displayed on the client's local computer.
 

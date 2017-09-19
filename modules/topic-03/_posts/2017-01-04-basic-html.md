@@ -4,7 +4,7 @@ module: 03
 ---
 
 ## Beginning in HTML
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 Let's just touch on using HTML or the **HyperText Markup Language.**
 

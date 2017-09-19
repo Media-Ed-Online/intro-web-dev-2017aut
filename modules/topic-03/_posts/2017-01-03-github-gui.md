@@ -4,7 +4,7 @@ module: 03
 ---
 
 ## Git GUI Application -<br /> GitHub Desktop:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 If you haven't already done so, download the GitHub Desktop appliction from their site:
 [https://desktop.github.com](https://desktop.github.com)

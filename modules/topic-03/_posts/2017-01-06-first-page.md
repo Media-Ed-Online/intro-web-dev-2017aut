@@ -5,7 +5,7 @@ module: 03
 ---
 
 ## Your First Web Page:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 Now that you know the basics of HTML it is time to write an HTML document and get it up on the web!
 

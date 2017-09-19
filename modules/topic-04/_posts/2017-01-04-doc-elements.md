@@ -4,7 +4,7 @@ module: 04
 ---
 
 ## Main Document Elements:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 Everything is HTML is described through elements. This includes the larger structure of the main document.
 
@@ -43,5 +43,5 @@ These elements will always be nested as follows for an HTML document:
 
 
 # { TODO: }
-1. Revisit your _First Web Page!_ raw code. Remember that [head element](https://codepen.io/Media-Ed-Online/pen/brJNRa) I had you copy?
-2. Read pages 12-22 of Chapter 01 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
+1. Read pages 12-22 of Chapter 01 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
+2. Revisit your _First Web Page!_ raw code. Remember that [head element](https://codepen.io/Media-Ed-Online/pen/brJNRa) I had you copy?

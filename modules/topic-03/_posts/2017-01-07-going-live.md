@@ -4,7 +4,7 @@ module: 03
 ---
 
 ## Showing the World:<br /> Going Live
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 OK, congratulations on writing your first html code/page. Now, lets figure out how to get it on the Internet for others to view.
 

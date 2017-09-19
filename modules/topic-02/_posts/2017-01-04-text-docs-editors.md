@@ -4,7 +4,7 @@ module: 02
 ---
 
 ## Working with Text:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 ### What's a text document?
 **Text documents** include many file types and can be simply described as any file that stores an [ASCII character set](https://en.wikipedia.org/wiki/ASCII) (as opposed to binary data), which is the most common format for the English language. These text files can include text documents of prose, code, or some combination of both.

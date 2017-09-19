@@ -4,7 +4,7 @@ module: 02
 ---
 
 ## Staying Organized:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 Maintaining organized files and consistent folder structure is key to creating effective workflow. This is especially important in web development because a URL contains **paths** which effectively provide directions to your files. Improperly cataloguing or even naming these files can lead to complete failure in loading your site.
 

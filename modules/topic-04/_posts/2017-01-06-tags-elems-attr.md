@@ -4,7 +4,7 @@ module: 04
 ---
 
 ## How HTML Describes the Structure of Pages:
-<span style="color: #79AF33; font-size: medium; font-weight: bold">▶ &nbsp;▶  &nbsp;▶</span>
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 With HTML, a browser’s processor identifies _elements_ of the document by looking for _tags_ embedded directly in the text. These elements are then parsed into the _Document Object Model (DOM)_.
 
