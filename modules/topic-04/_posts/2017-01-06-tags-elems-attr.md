@@ -34,4 +34,4 @@ It is written in US-style English.</p>
 
 # { TODO: }
 1. Read pages 23-26 of Chapter 01 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
-2. If you need a refresher, please review the _Elements_ and _Tags_ pages of [Topic-03](/modules/topic-03/basic-html/).
+2. If you need a refresher, please review the _Elements_ and _Tags_ pages of [Topic-03](https://media-ed-online.github.io/intro-web-dev/modules/topic-03/basic-html/).
