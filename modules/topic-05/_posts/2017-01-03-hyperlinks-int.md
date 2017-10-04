@@ -8,7 +8,7 @@ module: 05
 
 **Relative URLs** contain no protocols or domain information. This is convenient because they are shorter, but can _only_ reference files in the same path.
 
-It also should be noted that in the language of web design, the `index.html` file is referred to as the **home page** once hosted, as it becomes the "entry" to your site. It is also the page most users will retrun to again and again as your "base of opperations," as it were.
+It also should be noted that in the language of web design, the `index.html` file is referred to as the **home page** once hosted, as it becomes the "entry" to your site. It is also the page most users will return to again and again as your "base of opperations," as it were.
 
 
 <h3 id="first-heading">Page to Page</h3>
@@ -35,7 +35,7 @@ To assign an element an unique identifier, you should include the following code
 <div id="code-heading">HTML</div>
 ```html
 <h3 id="first-heading">"Page to Page" Section</h3>
-<h3 id="second-heading">"Specific Parf of the Same Page" Section</h3>
+<h3 id="second-heading">"Specific Part of the Same Page" Section</h3>
 ```
 
 **NOTE:** IDs should be treated like variables in other languages, with regards to the naming conventions. If you would like a refresher on HTML Attributes, please read W3School's [page about the subject](http://www.w3schools.com/html/html_attributes.asp).
@@ -58,9 +58,9 @@ In the following code, the link in line 1, would connect to the `h2` element in 
 
 <div id="code-heading">HTML</div>
 ```html
-<h3 id="first-heading">"Page to Page" Section</h3>
+<a href="#first-heading">"Page to Page" Section</a>
 <br />
-<h3 id="second-heading">"Specific Parf of the Same Page" Section</h3>
+<a href="#second-heading">"Specific Part of the Same Page" Section</a>
 ```
 See it in action!
 - Up to the <a href="#first-heading">"Page to Page" Section</a>.
