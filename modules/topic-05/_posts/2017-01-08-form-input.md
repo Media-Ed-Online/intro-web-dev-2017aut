@@ -5,7 +5,7 @@ module: 05
 
 ## Input Elements of Forms:
 <img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
-The "Input Element" is used to collect data from users. This is an element that you will likely use often as a web developer. The data collected by this element can be sent as part of a bunch of data in a form element to a server. This element can also be accessed through client-side javascript, allowing developers to create ways of getting data they can process on the client-computer.
+The "Input Element" is used to collect data from users. This is an element that you will likely use often as a web developer. The data collected by this element can be sent as part of a bunch of data in a form element to a server. This element can also be accessed through client-side JavaScript, allowing developers to create ways of getting data they can process on the client-computer.
 
 ### Attributes
 <p style="font-size: x-large"><span style="color: #79AF33; font-weight: bold;"><input</span> <span style="color: #999">type="..." name="..." id="..."</span> <span style="color: #79AF33; font-weight: bold;">/></span></p>
@@ -29,7 +29,7 @@ For example, an "input element" with the name attribute set to "username" (i.e. 
 
 As with many other elements in HTML, you should assign a unique element ID that can be used by other languages to refer to the specific form.
 
-This `id` attribute allows javascript to use data from a form element. (This is of course in addition to the use of the `id` attribute by the styling engine; discussed later in the course.)
+This `id` attribute allows JavaScript to use data from a form element. (This is of course in addition to the use of the `id` attribute by the styling engine; discussed later in the course.)
 
 ### Altogether Now
 The following code shows an "input" element, wrapped in a "form" element, along with the three _required_ attributes.

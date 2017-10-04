@@ -33,7 +33,7 @@ Before you dig into JavaScript in the advanced Web course, practice with these e
 
 
 ## Part 2/3 of Project 2
-Continuing with your chosen theme or **cooking**, **arts and crafts**, or **academic lesson**, you're going to add image content, a table, and a form to your Project.
+Continuing with your chosen theme of **cooking**, **arts and crafts**, or **academic lesson**, you're going to add image content, a table, and a form to your Project.
 
 These pages should be properly linked to each other and your `index.html`!
 

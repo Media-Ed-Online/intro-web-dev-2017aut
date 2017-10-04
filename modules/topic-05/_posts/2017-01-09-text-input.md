@@ -106,7 +106,7 @@ The `placeholder` attribute can be used to place grey text in a text field. This
 
 This text can be used to offer hints about the _type of text that is expected_ or to _encourage the user to type in the field_.
 
-**NOTE:** Notice how the text box has grey text (should work in most browsers), and that when you click in there it goes away.
+**NOTE:** Notice how the text box has grey text (should work in most browsers), and that when you click in there or begin typing it goes away.
 
 <p>
   <span style="color: #79AF33; font-weight: bold;">What do you do for fun?</span>
