@@ -37,7 +37,7 @@ The subscript element is commonly used with footnotes or in mathematical and che
 <p data-height="300" data-theme-id="30567" data-slug-hash="gGaqyJ" data-default-tab="html,result" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="Topic-04: Semantic HTML Pt. 3" class="codepen"></p>
 
 
-### Other
+<h3 id="markup-list"> Other </h3>
 Read the rest of Chapter 02 as asked in the **{ TODO: }** below. Please pay particular attention to the remaining semantic markup elements presented there that we are not discussing here. These include:
 
 - <q>Block Quotes & Quotations</q> ( `<blockquote cite="">...</blockquote>`, `<q>...</q>` )
