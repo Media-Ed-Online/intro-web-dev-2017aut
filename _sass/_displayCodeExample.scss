@@ -7,8 +7,17 @@
     background-color: #fff;
 }
 
+.displayed_code_example_pen {
+    padding: 30px;
+    // margin: ($line-height-computed * 1) ($padding-large-horizontal * -3) ($line-height-computed / 2) ($padding-large-horizontal * -3);
+    border: ($padding-large-horizontal * 3) solid $brand-accent;
+    // border:2px solid $brand-accent;
+    background-color: #f1f1f1;
+    line-height: normal;
+}
+
 .highlighter-rouge+.displayed_code_example,
-.highlight+.displayed_code_example {
+.highlight+.displayed_code_example, {
     margin-top: -13px;
 }
 

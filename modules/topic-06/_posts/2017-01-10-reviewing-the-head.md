@@ -53,7 +53,7 @@ Following these, should be the `<head>` element. This should contain at a minimu
 - `<title>...</title>`
 
 
-## All Together Now
+<h2 id="full-review">All Together Now</h2>
 
 So the basic structure of your document along with metadata should look something like...
 

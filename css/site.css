@@ -1,3 +1,21 @@
 .content img {
     max-width: 100%;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+.pen-result {
+  width: 100%;
+  background-color: #f1f1f1;
+  font-family: lato;
+  border: 1px solid #B3B3B3;
+}
+
+.pen-result h1, h2, h3, h4, h5, h6, {
+  margin-top: 0;
+}
+
+.pen-result * {
+  margin: .5em;
+  padding: 2px;
+}
