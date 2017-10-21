@@ -4,7 +4,7 @@ This repository is the web site for the University of Montana, School of Media A
 
 ### Instructed by
 - Justine Evans
-- E-Mail: [jusitne.evans@umontana.edu](mailto:justine.evans@umontana.edu).
+- E-Mail: [justine.evans@umontana.edu](mailto:justine.evans@umontana.edu).
 
 ## Links
 - [The course website](https://media-ed-online.github.io/princ-int-media)
