@@ -17,7 +17,7 @@
 }
 
 .highlighter-rouge+.displayed_code_example,
-.highlight+.displayed_code_example, {
+.highlight+.displayed_code_example {
     margin-top: -13px;
 }
 
@@ -31,7 +31,17 @@
         padding: (($line-height-computed - 1) * 0.5);
         margin: 0 0 ($line-height-computed * 0.5 ) 0;
         overflow: auto;
+      }
+}
 
-  }
-
+@media (max-width: $screen-md - 1) {
+    .displayed_code_example_pen {
+        border:2px solid $brand-accent;
+        // padding-top: 0;
+        // padding-bottom: (($line-height-computed - 1) * 1);
+        // padding-left: (($line-height-computed - 1) * 0.25);
+        padding: (($line-height-computed - 1) * 0.5);
+        margin: 0 0 ($line-height-computed * 0.5 ) 0;
+        overflow: auto;
+      }
 }

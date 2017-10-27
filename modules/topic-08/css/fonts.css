@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Playfair';
+    src:
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair_Italic';
+    src:
+        url('../fonts/PlayfairDisplay-Italic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;

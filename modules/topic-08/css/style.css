@@ -1,0 +1,16 @@
+
+#heading-1 {
+    font-family: 'Playfair';
+    font-style: normal;
+    font-size: 2em
+}
+#heading-2 {
+    font-family: 'Playfair';
+    font-style: oblique;
+    font-size: 1.75em;
+}
+#heading-3 {
+    font-family: 'Playfair_Italic';
+    font-style: italic;
+    font-size: 1.5em;
+}

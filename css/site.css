@@ -16,6 +16,12 @@
 }
 
 .pen-result * {
-  margin: .5em;
-  padding: 2px;
+  margin: .5em 0em !important;
+  padding: 2px 0em;
+}
+
+.pen-group {
+  background-color: #F49626;
+  padding: 1em;
+  margin: 10px;
 }
