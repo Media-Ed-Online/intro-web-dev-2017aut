@@ -115,7 +115,7 @@ The property should only be passed by keywords. The most common used inlcude:
       </style>
     <body>
       <h1>Common Image File Types for Web</h1>
-      <p><img src="../imgs/jpg.png" width="64" height="64" alt="JPG file type" id="jpg-ex" /> JPEG/JPG</p>
+      <p><img src="../imgs/jpg.png" width="64" height="64" alt="JPG file type" id="jpg-ex" /> JPG</p>
       <p><img src="../imgs/png.png" width="64" height="64" alt="PNG file type" id="png-ex" /> PNG</p>
       <p><img src="../imgs/gif.png" width="64" height="64" alt="GIF file type" id="gif-ex" /> GIF</p>
     </body>
