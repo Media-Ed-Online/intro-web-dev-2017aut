@@ -1,20 +1,20 @@
 ---
-title: First Letter & First Line
-module: 8
+title: Pseudo Elements
+module: 08
 ---
 
-# First Letter & First Line
+## First Letter & First Line
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
-CSS includes a number of _pseudo_ things. The first type of pseudo thing we will discuss are "pseudo-elements".
+CSS includes a number of _pseudo_ things. The first type of pseudo thing we will discuss are "**pseudo-elements**".
 
 Pseudo-elements allow for the selection of content, as if it were a separate element, without having to mark it up as such in the HTML.
 
 Two pseudo elements that are made available with CSS are "first letter" and "first line". Respectively, these allow for the selection of the first letter or first line, in an element's text. This selection can then be used to alter the appearance or display of just the first letter or line.
 
-The selectors for first letter and line are;
+The selectors for first letter and line are:
 
 <div id="code-heading">CSS</div>
-
 ```css
 selector::first-letter {}
 selector::first-line {}
@@ -22,7 +22,8 @@ selector::first-line {}
 
 The word selector in the above is replaced with the normal CSS selectors used to identify elements.
 
-## Example 1
+
+##### Example 1
 
 In the following, the first letter and line of a div element are selected and altered.
 

@@ -1,6 +1,6 @@
 ---
 title: Psuedo-Classes
-module: 8
+module: 08
 ---
 
 # Psuedo-Classes
@@ -26,7 +26,7 @@ p:hover {}
 
 # Common Pseudo-Classes
 
-NOTE: Any pseudo-class that relies upon mouse information (such as the ones below) will not translate to mobile devices. 
+NOTE: Any pseudo-class that relies upon mouse information (such as the ones below) will not translate to mobile devices.
 
 ### `:hover`
 

@@ -1,19 +1,22 @@
 ---
-title: Alignment
+title: Alignment & Indents
 module: 08
 ---
 
-## Text Alignment
+## Alignment & Indentation
 <img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
+
+Aligning your headers or captions can help draw the eye visually to new text events on the page. Likewise, indents can be used to breakup points introduced under a common topic, or delineate new paragraphs.
+
+### Text Alignment
 
 Alignment properties allows developers to specify how text should be positioned within an element.
 
-
-### Horizontal
+#### Horizontal
 
 The `text-align: ` property specifies horizontal placement of text in an element.
 
-#### Values
+##### Values
 
 This property should only be passed by keywords. The possible values are:
 
@@ -22,7 +25,7 @@ This property should only be passed by keywords. The possible values are:
 - `right`
 - `justify`
 
-#### Example
+##### Example
 
 In the following code, a simple paragraph with _Lorem Ipsum_ text is aligned using the above property declaration values.
 
@@ -73,7 +76,7 @@ In the following code, a simple paragraph with _Lorem Ipsum_ text is aligned usi
 </div>
 
 
-### Vertical
+#### Vertical
 
 The `vertical-align: ` property specifies vertical placement of text in relation to an inline element, usually images.
 
@@ -87,10 +90,10 @@ The property should only be passed by keywords. The most common used inlcude:
 - `bottom`
 - `text-bottom`
 
-#### Example
+##### Example
 
 <div class="pen-group">
-  <p data-height="400" data-theme-id="30567" data-slug-hash="Bmazqa" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-08] Alignment, Pt. 2" class="codepen"></p>
+  <p data-height="400" data-theme-id="30567" data-slug-hash="wPvjgW" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-08] Alignment, Pt. 2" class="codepen"></p>
 
   <div class="pen-result displayed_code_example_pen">
 		<style type="text/css">
@@ -115,7 +118,7 @@ The property should only be passed by keywords. The most common used inlcude:
       </style>
     <body>
       <h1>Common Image File Types for Web</h1>
-      <p><img src="../imgs/jpg.png" width="64" height="64" alt="JPG file type" id="jpg-ex" /> JPG</p>
+      <p><img src="../imgs/jpg.png" width="64" height="64" alt="JPG file type" id="jpg-ex" /> JPEG/JPG</p>
       <p><img src="../imgs/png.png" width="64" height="64" alt="PNG file type" id="png-ex" /> PNG</p>
       <p><img src="../imgs/gif.png" width="64" height="64" alt="GIF file type" id="gif-ex" /> GIF</p>
     </body>
@@ -123,5 +126,44 @@ The property should only be passed by keywords. The most common used inlcude:
 </div>
 
 
+<div style="border-top: 5px dotted #1CCDCA; width: 100%; margin-top: 150px"></div>
+<div style="border-top: 5px dotted #1CCDCA; width: 100%; margin-top: 20px"></div>
+
+
+### Text Indent
+
+First line indents are another typesetting property that CSS allows for the manipulation of. This property is controlled via `text-indent: `.
+
+This property controls how much the first line of a paragraph is indented.
+
+As with many text properties, this once can be passed absolute values with pixels (`px`) or points (`pt`). It can also be passed relative values, such as `em`s.
+
+##### Example
+
+In the following example, the text-indent property adjusts the indentations of three paragraph elements inside a "parent" (`.parent-1`) div element.
+
+<div class="pen-group">
+  <p data-height="400" data-theme-id="30567" data-slug-hash="RjwyEa" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-08] Alignment, Pt. 3" class="codepen"></p>
+
+  <div class="pen-result displayed_code_example_pen">
+    <style media="screen">
+    .parent-2 {
+        text-indent: 1.5em;
+        background-color: saddlebrown;
+        color: white;
+        padding: 1em;
+    }
+    </style>
+
+    <div class="parent-2">
+    <p>Ex reprehenderit officia pariatur mollit aliquip eu cillum magna quis. Labore officia incididunt quis laboris veniam quis veniam ad sunt. Minim fugiat consectetur ad consectetur eiusmod quis nostrud do. Deserunt laboris est commodo id Lorem mollit nostrud. Cupidatat culpa officia consequat proident duis nostrud quis nostrud incididunt commodo dolore sit velit.</p>
+    <p>Laboris excepteur amet incididunt cupidatat tempor non veniam reprehenderit aute minim qui quis ullamco mollit officia nostrud duis. Ut do nulla excepteur ex magna labore labore commodo. Lorem laborum minim occaecat tempor veniam ad consectetur adipisicing magna.</p>
+    <p>Et et commodo veniam do do enim nisi aliquip enim. Elit nisi officia esse aute ea mollit cillum exercitation. In in mollit laboris officia commodo pariatur mollit ipsum do est do.</p>
+    </div>
+  </div>
+</div>
+
+
+
 # { TODO: }
-Read pages 285-286 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
+Read pages 285-289 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
