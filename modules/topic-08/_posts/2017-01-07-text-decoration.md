@@ -1,9 +1,10 @@
 ---
 title: Text Decoration
-module: 8
+module: 08
 ---
 
-# Text Decoration
+## Text Decoration
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 The `text-decoration: ` accepts the following declaration keywords;
 
@@ -19,43 +20,15 @@ The `text-decoration: ` accepts the following declaration keywords;
     - Remove any decoration of text.
     - This is used by developers to remove default browser link decoration.
 
-<div id="code-heading">CSS</div>
+<div class="pen-group">
+  <p data-height="400" data-theme-id="30567" data-slug-hash="dZyXzK" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-08] Text Decoration" class="codepen"></p>
+  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-```css
-.text-1 {
-    text-decoration: none;
-}
-.text-2 {
-    text-decoration: underline;
-}
-.text-3 {
-    text-decoration: overline;
-}
-.text-4 {
-    text-decoration: line-through;
-}
-.text {
-    background-color: rgb(186, 186, 186);
-    padding: 0.75em;
-    text-align: center;
-}
-```
-
-
-<div id="code-ruler"></div>
-<div id="code-heading">HTML</div>
-
-```html
-<h2 class="text text-1">Some text to decorate.</h2>
-<h2 class="text text-2">Some text to decorate.</h2>
-<h2 class="text text-3">Some text to decorate.</h2>
-<h2 class="text text-4">Some text to decorate.</h2>
-```
-
-<div class="displayed_code_example">
+  <div class="pen-result displayed_code_example_pen">
     <style>
     .text {
-        background-color: rgb(186, 186, 186);
+        background-color: rgb(55, 62, 66);
+        color: turquoise;
         padding: 0.75em;
         text-align: center;
     }
@@ -76,4 +49,9 @@ The `text-decoration: ` accepts the following declaration keywords;
     <h2 class="text text-2">Some text to decorate.</h2>
     <h2 class="text text-3">Some text to decorate.</h2>
     <h2 class="text text-4">Some text to decorate.</h2>
+  </div>
 </div>
+
+
+# { TODO: }
+Read page 282 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).

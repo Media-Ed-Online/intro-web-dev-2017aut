@@ -230,7 +230,7 @@ This [Phrase to Text Art](http://patorjk.com/software/taag/#p=display&f=Epic&t=I
 
 
 # { TODO: }
-Read page 264-267 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
+Read page 264-268 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
 1. Read the following on serif vs sans-serif fonts:
    - ["The Difference Between Serif And Sans Serif", visual hierarchy](https://visualhierarchy.co/blog/serif-vs-sans-serif/)
    - ["Serif vs. Sans for Text in Print", fonts.com](https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/serif-vs-sans-for-text-in-print)

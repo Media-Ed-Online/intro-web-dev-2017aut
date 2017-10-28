@@ -68,7 +68,5 @@ Web-safe fonts include:
 The advantage of using fonts from this list is that the client computer will already have the font. This reduces load times and may increase performance.
 
 
-
-
 # { TODO: }
-Read page 264-267 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
+Read page 269-273 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
