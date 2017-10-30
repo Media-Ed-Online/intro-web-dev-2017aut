@@ -12,5 +12,3 @@ As you can tell from all that has been covered, this goes beyond simply choosing
 ### { TODO: }
 
 Spend some time examining sites you read everyday. Compare how they choose to present text. Consider whether you think their choices create for enjoyable reading situations? What does one site do over another to achieve great text presentation?
-
-**Also** read Chapter 12 from the Duckett on "Text" to get more info.

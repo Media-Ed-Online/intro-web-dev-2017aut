@@ -134,11 +134,16 @@ Often this is used to make a button feel more real by slightly changing the colo
         border-color: #383636 #8f8b8b #8f8b8b #383636;
         border-width: 15px 9px 9px 15px;
       }
+      .link-button {
+        text-decoration: none !important;
+        color: inherit !important;
+      }
     </style>
     <div class="parent-element">
-       <center><div class="button-1">
-          Press me...
-       </div></center>
+       <center><a href="https://google.com" class="link-button"><div class="button-1">
+          Press me...<br />
+          <span style="font-size: small; text-transform:uppercase;">(I link to Google)</span>
+       </div></a></center>
     </div>
   </div>
 </div>
