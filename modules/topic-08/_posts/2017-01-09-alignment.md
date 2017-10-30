@@ -164,6 +164,5 @@ In the following example, the text-indent property adjusts the indentations of t
 </div>
 
 
-
 # { TODO: }
-Read pages 285-289 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
+Read pages 285-288 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).

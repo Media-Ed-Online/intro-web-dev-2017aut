@@ -19,4 +19,4 @@ Also to help get us started this week, we have a few readings that will make sur
    - Part 1: "[The Basics of Type](https://www.noupe.com/essentials/icons-fonts/a-crash-course-in-typography-the-basics-of-type.html)"
    - Part 2: "[Principles for Combining Typefaces](https://www.noupe.com/essentials/icons-fonts/a-crash-course-in-typography-principles-for-combining-typefaces.html)"
    - Part 3: "[Pulling It All Together](https://www.noupe.com/essentials/icons-fonts/a-crash-course-in-typography-pulling-it-all-together.html)"
-2. Explore the examples from C. Knight and J. Glaser in "[Creating Visual Hierarchies](https://www.smashingmagazine.com/2013/02/creating-visual-hierarchies-typography/)"
+2. Explore this area on our "[Go Further With Fonts](../going-further#intro-typography)" page.

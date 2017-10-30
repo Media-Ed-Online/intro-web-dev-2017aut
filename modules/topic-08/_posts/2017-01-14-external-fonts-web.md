@@ -1,6 +1,6 @@
 ---
-title: External Fonts from the Web
-module: 8
+title: External Fonts a la Web
+module: 08
 ---
 
 # External Fonts from the Web

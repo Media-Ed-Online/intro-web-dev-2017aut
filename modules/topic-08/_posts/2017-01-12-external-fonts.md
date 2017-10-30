@@ -1,20 +1,21 @@
 ---
 title: External Fonts
-module: 8
+module: 08
 ---
 
-# External Fonts
+## External Fonts
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
-As a developer you will want to include specific fonts for certain sites. These fonts may be part of the brand, add personality, be integral to the overall design aesthetic, or be serve a special purpose.
+As a developer you will want to include specific fonts for certain sites. These fonts may be part of the brand, add personality, be integral to the overall design aesthetic, or serve a special purpose.
 
-Developers can include external fonts a number of ways. However, when including external fonts, you should keep in mind that this is an additional resource the client computer will have to download. This may impact speed and performance. Therefore you should only include external fonts with purpose, and ensure that you only include fonts you are actually using.
+Developers can include external fonts a number of ways. However, when including external fonts, you should keep in mind that this is an additional resource the client computer will have to download. This may impact speed and performance. Therefore you should only include external fonts with _purpose_, and ensure that you only include fonts you are actually using.
 
 
-# Fonts from Your Server
+### Fonts from Your Server
 
 One way to include an external font is to place its resource files in a sub-directory, similar to how images, style sheets, and other external resources are handled.
 
-## @font-face
+#### @font-face
 
 To include an external font, you first must tell the browser to load the font and what to refer to it as. To do this, use the `@font-face` rule in your CSS.
 
@@ -22,7 +23,7 @@ This rule is formatted like other CSS selectors, but instead of being used to al
 
 The `@font-face` rule takes three properties.
 
-#### src: url and format
+##### src: url and format
 
 The source property (`src: url() format()`) tells the browser where to load the font from via the `url()` function, and what type of font it is via the `format()` function.
 
@@ -146,7 +147,7 @@ Each weight has a 'regular' and _'italic'_ version.
 
 When selecting the font for use, the CSS specifies the `font-weight:` and `font-style:` which then allows the browser to call the correct font package.
 
-For this example, the font import statements have also been moved into their own css file; `fonts.css`. These allows the main css style file to be cleaner in appearance. Notice that the `fonts.css` file is linked in the html file before the `style.css` file. This is important in allowing the latter file to 'see' the fonts. 
+For this example, the font import statements have also been moved into their own css file; `fonts.css`. These allows the main css style file to be cleaner in appearance. Notice that the `fonts.css` file is linked in the html file before the `style.css` file. This is important in allowing the latter file to 'see' the fonts.
 
 <div id="code-heading">Directory</div>
 
@@ -276,3 +277,7 @@ For this example, the font import statements have also been moved into their own
 </div>
 
 | [**[Code Download]**](https://github.com/Montana-Media-Arts/341-work/raw/master/lectureCode/08/font-example-01/font-example-01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/341-work/raw/master/lectureCode/08/font-example-01/) | [**[Live Example]**](https://montana-media-arts.github.io/341-work/lectureCode/08/font-example-01/) |
+
+
+# { TODO: }
+Read pages 277-278 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).

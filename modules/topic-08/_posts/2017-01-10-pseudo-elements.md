@@ -1,5 +1,5 @@
 ---
-title: Pseudo Elements
+title: Pseudo-Elements
 module: 08
 ---
 
@@ -18,98 +18,99 @@ The selectors for first letter and line are:
 ```css
 selector::first-letter {}
 selector::first-line {}
-```
 
-The word selector in the above is replaced with the normal CSS selectors used to identify elements.
+/*The word selector in the above is replaced with
+the normal CSS selectors used to identify elements.*/
+
+p::first-letter {color: green; font-size: 1.25em}
+```
 
 
 ##### Example 1
 
 In the following, the first letter and line of a div element are selected and altered.
 
-<div id="code-heading">CSS</div>
+<div class="pen-group">
+  <p data-height="400" data-theme-id="30567" data-slug-hash="BmyNqx" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-08] Text Pseudos, Pt. 1" class="codepen"></p>
+  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-```css
-.text-element::first-letter {
-    color: #ff19a3;
-}
-.text-element::first-line {
-    background-color: #00baff;
-}
-```
-
-<div class="displayed_code_example">
+  <div class="pen-result displayed_code_example_pen">
     <style>
-        .text-element::first-letter {
-            color: #ff19a3;
-        }
-        .text-element::first-line {
-            background-color: #00baff;
-        }
+      .text-element {
+         font-size: 1.5em;
+         text-indent: 30px;
+      }
+      .text-element::first-letter {
+         color: yellow;
+         font-weight: bolder;
+      }
+      .text-element::first-line {
+          background-color: #1CCDCA;
+      }
     </style>
     <div class="text-element">
     Do voluptate velit officia et voluptate cupidatat eiusmod nostrud consequat. Est dolore laborum eiusmod culpa ut exercitation nostrud Lorem in sint et tempor ea incididunt. In non irure pariatur in mollit id fugiat tempor dolore ut nisi minim irure aliqua anim. Irure dolore et cillum non culpa quis amet. </div>
+  </div>
 </div>
 
 
-## Example 2
+##### Example 2
 
 In the following example, the same technique of using the first letter selector is applied to create a large letter, like might occur in a children's book.
 
-<div id="code-heading">CSS</div>
+<div class="pen-group">
+  <p data-height="600" data-theme-id="30567" data-slug-hash="JOodqR" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-08] Text Pseudos, Pt. 2" class="codepen"></p>
+  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-```css
-@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
-
-body {
-    background-color: rgb(147, 12, 76);
-}
-
-.parent-container {
-    padding: 1em;
-}
-
-.text-block {
-    font-family: 'Gentium Book Basic', serif;
-    font-weight: 400;
-    font-size: 1.5em;
-    padding: 1em;
-    margin: 1em;
-    background-color: #fff;
-    text-indent: 1.5em;
-    line-height: 1.5em;
-}
-
-/* Select the first paragraph child of .text-block */
-.text-block p:first-child {
-    text-indent: 0;
-}
-
-/* Select the first letter that occurs in the .text-block */
-.text-block::first-letter {
-    font-size: 4em;
-    font-weight: 700;
-    color: rgb(11, 44, 126);
-    /*padding: 0.1em;*/
-}
-```
-
-
-<div id="code-ruler"></div>
-<div id="code-heading">HTML</div>
-
-```html
-<div class="parent-container">
-<div class="text-block">
-    <p>Once upon a time, there was a great princess. She was fierce and protected the realm from the evils that be. Her name was Whataka GoGo. Along with her trusty sidekick, Pete the chocolate lab.</p>
-    <p>One day the strong princess was attending a party, hosted by her dear friend Aspen. At this party all of the villages most enjoyable people had showed up.</p>
-    <p> The Mayor was currently talking to Pete about his latest adventures with Whataka. Pete was boisterously regaling the mayor about their adventures to free a neighboring village from the attacking DerDarDuh's ...</p>
-</div>
-</div>
-```
-
-<div class="displayed_code_example">
-    <div class="embed-responsive" style="padding-bottom:800px;"><iframe class="embed-responsive-item" src="https://montana-media-arts.github.io/341-work/lectureCode/08/first-letter-01/" frameborder="0" allowfullscreen></iframe></div>
+  <div class="pen-result displayed_code_example_pen">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
+      .rumple-body {
+          background-color: rgb(147, 12, 76);
+      }
+      .parent-container {
+          padding: 1em 2em;
+      }
+      .text-block {
+          font-family: 'Gentium Book Basic', serif;
+          font-weight: 400;
+          font-size: 1.5em;
+          padding: 1em;
+          margin: 1em;
+          background-color: #fff;
+          text-indent: 1.5em;
+          line-height: 1.5em;
+      }
+      .text-block p:first-child {
+          text-indent: 0;
+      }
+      /*.text-block::first-letter doesn't work*/
+      .first-letter {
+          font-size: 4em;
+          font-weight: 700;
+          color: rgb(11, 44, 126);
+      }
+      .spoken {
+         font-style: italic;
+      }
+      #first-offer {
+         color: rgb(147, 12, 76);
+         text-decoration: underline
+      }
+    </style>
+    <div class="rumple-body">
+      <div class="parent-container">
+        <div class="text-block">
+          <p><span class="first-letter">T</span>hereupon he himself locked up the room, and left her in it alone. So there sat the poor miller's daughter, and for the life of her could not tell what to do, she had no idea how straw could be spun into gold, and she grew more and more frightened, until at last she began to weep.</p>
+          <p>But all at once the door opened, and in came a little man, and said, <span class="spoken">"Good evening, mistress miller, why are you crying so?"</span></p>
+          <p><span class="spoken">"Alas,"</span> answered the girl, <span class="spoken">"I have to spin straw into gold, and I do not know how to do it."</span></p>
+          <p><span class="spoken" id="first-offer">"What will you give me,"</span> said the manikin, <span class="spoken">"if I do it for you?"</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/341-work/raw/master/lectureCode/08/first-letter-01/first-letter-01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/341-work/raw/master/lectureCode/08/first-letter-01/) | [**[Live Example]**](https://montana-media-arts.github.io/341-work/lectureCode/08/first-letter-01/) |
+
+# { TODO: }
+Read page 289 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).

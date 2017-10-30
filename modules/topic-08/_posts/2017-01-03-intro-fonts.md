@@ -230,10 +230,6 @@ This [Phrase to Text Art](http://patorjk.com/software/taag/#p=display&f=Epic&t=I
 
 
 # { TODO: }
-Read page 264-268 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
-1. Read the following on serif vs sans-serif fonts:
-   - ["The Difference Between Serif And Sans Serif", visual hierarchy](https://visualhierarchy.co/blog/serif-vs-sans-serif/)
-   - ["Serif vs. Sans for Text in Print", fonts.com](https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/serif-vs-sans-for-text-in-print)
-2. Explore these additional font combinations:
-   - ["Font Pairings: 20 Perfect Examples"](http://www.creativebloq.com/typography/20-perfect-type-pairings-3132120)
-   - [Font Pair](http://fontpair.co/)
+1. Read pages 264-268 of Chapter 12 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
+2. Find a pair of fonts that fits your personal aesthetic at [Font Pair](http://fontpair.co/). This is not necessarily for your site, but just to encourage exploration.
+3. Explore this area on our "[Go Further With Fonts](../going-further#intro-fonts)" page.
