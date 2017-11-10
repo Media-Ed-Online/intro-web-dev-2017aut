@@ -4,21 +4,23 @@
 
 aside.content-side {
     float: right;
-    margin: 3em;
+    margin: 2em;
     margin-top: 2.5em;
     padding: 0;
     width: 15%;
     min-width: 200px;
     color: #fff;
-    background-color: #507aa6;
+    background-color: #D3D7DA;
     font-weight: lighter;
+    border: 3px dashed #F15F50;
 }
 
 aside .aside-head {
     font-size: 1.5em;
     text-align: center;
     padding: 1em;
-    background-color: #bf628c;
+    background-color: #F15F50;
+    text-transform: uppercase;
 }
 
 aside .aside-text {
@@ -30,12 +32,27 @@ aside .aside-text p {
     font-style: italic;
     padding: 0.25em 1em;
     margin: 0;
+    font-size: 16px;
+    color: #27435C;
+    font-weight: 300;
     text-align: left;
 }
 
+aside .aside-text .rating {
+  color: goldenrod;
+  background-color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1em;
+}
 
 aside .aside-img img {
     display: block;
-    padding: 1em;
-    margin: auto;
+    border: 10px solid #fff;
+    background-color: #27435C;;
+    border-radius: 500px;
+    padding: 10px;
+    position: relative;
+    margin: 0 auto 1.5em auto;
+    width: 100px;
 }
