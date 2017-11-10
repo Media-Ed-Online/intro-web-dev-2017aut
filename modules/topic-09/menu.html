@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sticky Menu Example</title>
+    <style>
+        /* Style the page: */
+        body {
+            font-family: 'Lato', Arial;
+            font-size: 16pt;
+            margin: 0;
+            padding: 0;
+            background-color: #e2e2e2;
+        }
+
+        /* Set your header design: */
+        header {
+            position: fixed;
+            top: 0px;
+            background-color: #26272b;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            margin-top: 0;
+            height: 4em;
+            width: 100%;
+            text-align: right;
+        }
+
+        /* Set the layout of the menu: */
+        .menu-item, .site-name {
+            display: inline-block;
+            margin: 1em .2em;
+            min-width: 6em;
+            text-align: center;
+            background-color: #26272b;
+            padding: 0.5em 1em;
+        }
+
+        /* Style the links: */
+        .menu-item a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .menu-item:hover {
+            background-color: #1CCDCA;
+        }
+
+        /* Add a dropdown feature: */
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            border: 1px solid #000;
+            margin: 0.5em 0 0 -1em;
+            color: #000;
+            background-color: #fff;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: #000;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Style dropdown item display: */
+        .dropdown-item {
+            display: block;
+            text-align: left;
+            margin: 0;
+            padding: 0.5em 1em 0.5em 1em;
+            min-width: 5.9em;
+        }
+
+        .dropdown-item:hover, .dropdown-item:hover a {
+            color: #baf0ef;
+            background-color: #a2a2a2;
+        }
+
+        /* Style the Main Content: */
+        .site-name {
+            float: left;
+            padding-right: 1em;
+            color: #1CCDCA;
+        }
+        .main-container {
+            margin-top: 5em;
+            padding: 1em;
+            line-height: 1.4em;
+        }
+    </style>
+  </head>
+  <body>
+
+     <header class="">
+        <div class="menu-item">
+           <a href="#">Home</a></div>
+        <div class="menu-item">
+           <a href="#">About</a></div>
+        <div class="menu-item dropdown">
+           <a href="#">Dropdown</a>
+           <div class="dropdown-content">
+              <div class="dropdown-item">
+                 <a href="#">Services</a></div>
+              <div class="dropdown-item">
+                 <a href="#">Press</a></div>
+              <div class="dropdown-item">
+                 <a href="#">Careers</a></div>
+              <div class="dropdown-item">
+                 <a href="#">Contact</a></div>
+           </div>
+        </div>
+        <div class="site-name">
+           Sticky Header Example
+        </div>
+     </header>
+
+     <main class="main-container">
+        <h2>Sticky Header Example</h2>
+        <p>Officia velit ad deserunt ex qui anim amet ea fugiat adipisicing officia. Sunt anim elit ut amet enim dolore id consequat eu. Est in officia velit cillum ex mollit incididunt nostrud.</p>
+        <p>Duis irure laborum ut minim elit duis laboris magna. Nostrud nulla do sit ex commodo duis deserunt ad voluptate eiusmod ullamco nisi deserunt. Pariatur labore dolor cupidatat ullamco anim Lorem adipisicing officia amet ut.</p>
+        <p>Reprehenderit sit et in reprehenderit in enim anim enim magna aliquip. Velit sit commodo exercitation irure nisi enim consequat deserunt ea veniam dolore officia. Laborum aliquip qui ullamco nisi ut labore tempor amet deserunt veniam consectetur sint proident.</p>
+        <p>Laborum culpa amet pariatur exercitation minim mollit id anim exercitation veniam deserunt proident veniam veniam ea commodo. Ullamco sint commodo tempor consequat elit do elit id id ea pariatur eu dolor. Sunt sit aliquip velit excepteur ad et eiusmod incididunt id voluptate anim ad et quis. Do veniam deserunt qui reprehenderit ex ullamco in aliqua amet adipisicing aute eu aliquip. Amet amet duis labore ut ullamco ea magna dolor cupidatat qui sunt. Aute elit veniam sit mollit labore tempor magna veniam reprehenderit veniam.</p>
+        <p>Dolor dolore pariatur non veniam proident labore proident ea nostrud. Laborum ullamco commodo ullamco mollit sint quis dolore pariatur sunt enim cupidatat elit. Esse Lorem amet reprehenderit consectetur adipisicing irure velit enim adipisicing do aute. Laborum est nulla labore aute ipsum exercitation anim pariatur nisi et magna proident do ullamco. Enim dolore pariatur ipsum aliqua amet ipsum non voluptate ipsum ad officia excepteur eiusmod ea. Voluptate proident ex anim velit aliqua dolor nisi nulla aliqua ut.</p>
+        <p>Sit cupidatat fugiat ut ut mollit Lorem ipsum ad. Et proident ipsum duis qui veniam minim non pariatur do irure ullamco velit commodo duis. Ad laboris consequat cupidatat fugiat laborum anim voluptate nostrud tempor sunt ipsum cupidatat anim est consequat ipsum nisi.</p>
+        <p>Magna voluptate irure elit elit mollit id nulla elit commodo ad esse culpa id laborum do elit ad. Ut deserunt nostrud do labore proident do non. Culpa ex enim amet sint consectetur duis adipisicing.</p>
+        <p>Veniam culpa irure mollit cillum consectetur veniam proident ea cupidatat tempor est est ex enim consectetur nostrud et. Anim officia qui ea esse qui tempor amet dolor labore dolor enim nostrud. Enim non id culpa nulla ut sunt mollit officia proident occaecat labore excepteur sint tempor irure nisi. Cillum mollit commodo laborum magna eu dolore id consequat anim irure mollit veniam deserunt labore ut veniam. Quis eu pariatur veniam excepteur ad non cupidatat et. In veniam culpa veniam irure et commodo velit amet. Culpa sint fugiat irure ut enim enim labore exercitation est officia ad laboris. Quis culpa commodo laboris est amet velit laborum cupidatat do ad minim non qui reprehenderit sint elit culpa.</p>
+        <p>Officia velit ad deserunt ex qui anim amet ea fugiat adipisicing officia. Sunt anim elit ut amet enim dolore id consequat eu. Est in officia velit cillum ex mollit incididunt nostrud.</p>
+        <p>Duis irure laborum ut minim elit duis laboris magna. Nostrud nulla do sit ex commodo duis deserunt ad voluptate eiusmod ullamco nisi deserunt. Pariatur labore dolor cupidatat ullamco anim Lorem adipisicing officia amet ut.</p>
+        <p>Reprehenderit sit et in reprehenderit in enim anim enim magna aliquip. Velit sit commodo exercitation irure nisi enim consequat deserunt ea veniam dolore officia. Laborum aliquip qui ullamco nisi ut labore tempor amet deserunt veniam consectetur sint proident.</p>
+        <p>Laborum culpa amet pariatur exercitation minim mollit id anim exercitation veniam deserunt proident veniam veniam ea commodo. Ullamco sint commodo tempor consequat elit do elit id id ea pariatur eu dolor. Sunt sit aliquip velit excepteur ad et eiusmod incididunt id voluptate anim ad et quis. Do veniam deserunt qui reprehenderit ex ullamco in aliqua amet adipisicing aute eu aliquip. Amet amet duis labore ut ullamco ea magna dolor cupidatat qui sunt. Aute elit veniam sit mollit labore tempor magna veniam reprehenderit veniam.</p>
+        <p>Dolor dolore pariatur non veniam proident labore proident ea nostrud. Laborum ullamco commodo ullamco mollit sint quis dolore pariatur sunt enim cupidatat elit. Esse Lorem amet reprehenderit consectetur adipisicing irure velit enim adipisicing do aute. Laborum est nulla labore aute ipsum exercitation anim pariatur nisi et magna proident do ullamco. Enim dolore pariatur ipsum aliqua amet ipsum non voluptate ipsum ad officia excepteur eiusmod ea. Voluptate proident ex anim velit aliqua dolor nisi nulla aliqua ut.</p>
+        <p>Sit cupidatat fugiat ut ut mollit Lorem ipsum ad. Et proident ipsum duis qui veniam minim non pariatur do irure ullamco velit commodo duis. Ad laboris consequat cupidatat fugiat laborum anim voluptate nostrud tempor sunt ipsum cupidatat anim est consequat ipsum nisi.</p>
+        <p>Magna voluptate irure elit elit mollit id nulla elit commodo ad esse culpa id laborum do elit ad. Ut deserunt nostrud do labore proident do non. Culpa ex enim amet sint consectetur duis adipisicing.</p>
+        <p>Veniam culpa irure mollit cillum consectetur veniam proident ea cupidatat tempor est est ex enim consectetur nostrud et. Anim officia qui ea esse qui tempor amet dolor labore dolor enim nostrud. Enim non id culpa nulla ut sunt mollit officia proident occaecat labore excepteur sint tempor irure nisi. Cillum mollit commodo laborum magna eu dolore id consequat anim irure mollit veniam deserunt labore ut veniam. Quis eu pariatur veniam excepteur ad non cupidatat et. In veniam culpa veniam irure et commodo velit amet. Culpa sint fugiat irure ut enim enim labore exercitation est officia ad laboris. Quis culpa commodo laboris est amet velit laborum cupidatat do ad minim non qui reprehenderit sint elit culpa.</p>
+     </main>
+  </body>
+</html>

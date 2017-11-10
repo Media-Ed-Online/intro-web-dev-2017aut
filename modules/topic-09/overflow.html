@@ -1,31 +1,13 @@
----
-title: Overflow
-module: 09
----
-
-## Overflow:
-<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
-
-We saw an example on the last page, where the text inside an element "overflowed" its containing box. We can choose to address this situation in a couple of ways:
-
-1. Ignore it (boo!).
-2. Resize our elements so they fit the content.
-3. Tell the browser what to do with _extra_ content.
-
-In the latter option, we will use the "overflow" CSS property (`overflow: `). This property takes one of three values:
-
-- `visible`; this is the default.
-- `hidden`; overflow content will be hidden.
-- `scroll`; scroll bars will be provided for overflow content.
-
-The following example is adapted from the last page. It shows the same sets of boxes with _Lorem Ipsum_ three times. Each area has the overflow set to scroll, hidden, and visible, respectively.
-
-<div class="pen-group">
-  <p data-height="600" data-theme-id="30567" data-slug-hash="PObLLw" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-09] Overflow, Pt. 1" class="codepen"></p>
-  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-  <div class="pen-result displayed_code_example_pen" style="overflow:scroll;">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Overflow Example</title>
     <style>
+      * {
+        font-family: 'Lato', Arial;
+      }
       .overflow-scroll {
           overflow: scroll;
       }
@@ -35,7 +17,7 @@ The following example is adapted from the last page. It shows the same sets of b
       .overflow-visible {
           overflow: visible;
       }
-      .parent-container-1 {
+      .parent-container {
           width: 100%;
           max-width: 960px;
           min-width:400px;
@@ -44,16 +26,17 @@ The following example is adapted from the last page. It shows the same sets of b
           margin-bottom: 10px;
           color: white;
       }
-      .inner-box-1 {
+      .inner-box {
           width: 75%;
           height: 50%;
           background-color: #1CCDCA;
           color: #333;
       }
     </style>
-
-    <div class="parent-container-1 overflow-scroll">
-      <div class="inner-box-1 overflow-scroll">
+  </head>
+  <body>
+    <div class="parent-container overflow-scroll">
+      <div class="inner-box overflow-scroll">
           <h2>Inner Scroll Box</h2>
           <p>Scroll me</p>
           <p>Amet duis culpa in commodo ut enim incididunt minim consequat laborum dolore nostrud nisi. Nulla enim anim labore enim irure Lorem magna commodo sit amet elit et voluptate tempor enim. Laboris pariatur sunt id ea excepteur deserunt nisi cillum deserunt reprehenderit et deserunt.</p>
@@ -65,8 +48,8 @@ The following example is adapted from the last page. It shows the same sets of b
       <p>Ipsum laborum amet exercitation pariatur tempor ea cupidatat proident duis nostrud. Lorem aliquip veniam eiusmod do laborum ullamco ex id culpa consequat dolore non tempor in excepteur enim aliqua. Dolor commodo officia culpa aliqua nulla sunt non consectetur aute amet culpa nisi aute elit velit commodo dolore. Occaecat laboris et irure labore elit commodo est nisi ut ea sint occaecat aliquip sit fugiat.</p>
     </div>
 
-    <div class="parent-container-1 overflow-hidden">
-      <div class="inner-box-1 overflow-hidden">
+    <div class="parent-container overflow-hidden">
+      <div class="inner-box overflow-hidden">
           <h2>Inner Hidden Box</h2>
           <p>Once my content overflows, it is gone...</p>
           <p>Amet duis culpa in commodo ut enim incididunt minim consequat laborum dolore nostrud nisi. Nulla enim anim labore enim irure Lorem magna commodo sit amet elit et voluptate tempor enim. Laboris pariatur sunt id ea excepteur deserunt nisi cillum deserunt reprehenderit et deserunt.</p>
@@ -79,8 +62,8 @@ The following example is adapted from the last page. It shows the same sets of b
       <p>Ipsum laborum amet exercitation pariatur tempor ea cupidatat proident duis nostrud. Lorem aliquip veniam eiusmod do laborum ullamco ex id culpa consequat dolore non tempor in excepteur enim aliqua. Dolor commodo officia culpa aliqua nulla sunt non consectetur aute amet culpa nisi aute elit velit commodo dolore. Occaecat laboris et irure labore elit commodo est nisi ut ea sint occaecat aliquip sit fugiat.</p>
     </div>
 
-    <div class="parent-container-1 overflow-visible">
-      <div class="inner-box-1 overflow-visible">
+    <div class="parent-container overflow-visible">
+      <div class="inner-box overflow-visible">
           <h2>Inner Visible Box</h2>
           <p>I am spilling out everywhere...</p>
           <p>Amet duis culpa in commodo ut enim incididunt minim consequat laborum dolore nostrud nisi. Nulla enim anim labore enim irure Lorem magna commodo sit amet elit et voluptate tempor enim. Laboris pariatur sunt id ea excepteur deserunt nisi cillum deserunt reprehenderit et deserunt.</p>
@@ -91,10 +74,5 @@ The following example is adapted from the last page. It shows the same sets of b
       <p>Unfortunatly, when the browser is narrow, there is not enough room in the box for all of this extra text, so it will run outside of the box.</p>
       <p>Ipsum laborum amet exercitation pariatur tempor ea cupidatat proident duis nostrud. Lorem aliquip veniam eiusmod do laborum ullamco ex id culpa consequat dolore non tempor in excepteur enim aliqua. Dolor commodo officia culpa aliqua nulla sunt non consectetur aute amet culpa nisi aute elit velit commodo dolore. Occaecat laboris et irure labore elit commodo est nisi ut ea sint occaecat aliquip sit fugiat.</p>
     </div>
-  </div>
-</div>
-
-
-# { TODO: }
-1. <a href="{{site.baseurl}}/modules/topic-09/overflow.html" target="_blank">Open the example in a separate tab</a> and resize the window to observe the difference.
-2. Read page 306 of Chapter 13 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Box Size Example</title>
+    <style>
+      * {
+        font-family: 'Lato', Arial;
+      }
+      .parent-container {
+          width: 50%;
+          min-width: 400px;
+          max-width: 600px;
+          height: 200px;
+          background-color: #79AF33;
+          color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent-container">
+    I will try to be 50% of the window width. But I cannot get smaller than 400px, nor larger than 600px.
+    </div>
+  </body>
+</html>

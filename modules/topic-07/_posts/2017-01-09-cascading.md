@@ -92,7 +92,7 @@ For example;
           <p class="p">I like dogs.</p>
       </div>
       <div class="box-two div-code">
-          <p class="p" id="first-paragraph-id">I like dogs alot.</p>
+          <p class="p" id="first-paragraph-id">I like dogs a lot.</p>
           <p class="p">I like big dogs...</p>
       </div>
   </div>

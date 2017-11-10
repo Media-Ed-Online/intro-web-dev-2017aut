@@ -1,14 +1,16 @@
 ---
 title: Display Hidden
-module: 9
+module: 09
 ---
 
-# Hide with Display
+## Hide with Display
+<img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
 The display property can also be used to 'hide' elements. At first, it may seem difficult to understand why it would be useful to hide an element, but this is done often in order to create "drop-down menus" or "hidden tips" type content.
 
 To hide an element, set the `display` properties value to `none`. To get it to appear, you create a selector made up of the parent container and element in question, with the `:hover` pseudo-class added to the parent.
 
+<div id="code-heading">CSS</div>
 ```css
 .child-class-to-unhide {
     display: none;
@@ -20,105 +22,54 @@ To hide an element, set the `display` properties value to `none`. To get it to a
 
 In the following example, this exact technique is used to create an "additional information" type box.
 
-<div id="code-heading">HTML</div>
+<div class="pen-group">
+  <p data-height="600" data-theme-id="30567" data-slug-hash="LOxMya" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-09] Display Hidden, Pt. 1" class="codepen"></p>
+  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-```html
-<div class="container">
-    <div class="tip-header">
-        Hover over me for more information...
-
+  <div class="pen-result displayed_code_example_pen">
+    <style>
+      .example-container {
+        font-family: sans-serif;
+        font-size: 16pt;
+        width: 100%;
+        min-width: 200px;
+        max-width: 500px;
+        background-color: #BCD799;
+        margin: auto;
+        padding: 0;
+      }
+      .tip-header {
+        height: inherit;
+        font-size: 1.5em;
+        padding: 1em;
+        text-align: center;
+        color: #fff;
+        background-color: #79AF33;
+      }
+      .example-container .hidden-content {
+        display: none;
+        font-size: 1em;
+        font-style: italic;
+        padding: 1em;
+      }
+      .example-container:hover .hidden-content {
+        display: block;
+      }
+    </style>
+    <div class="example-container">
+        <div class="tip-header">
+            Hover over me for more information...
+        </div>
+        <div class="hidden-content">
+            This is some hidden information,
+            that serves to further enlighten your end-user.
+        </div>
     </div>
-    <div class="hidden-content">
-        This is some hidden information,
-        that serves to further enlighten your end-user.
-    </div>
-</div>
-```
-
-
-<div id="code-ruler"></div>
-<div id="code-heading">CSS</div>
-
-```css
-.container {
-    font-family: sans-serif;
-    font-size: 16pt;
-    width: 100%;
-    min-width: 200px;
-    max-width: 500px;
-    background-color: #3eb4da;
-}
-
-.tip-header {
-    font-size: 1.5em;
-    padding: 1em;
-    text-align: center;
-    color: #fff;
-    background-color: #18516e;
-}
-
-
-.hidden-content {
-    display: none;
-    font-size: 1em;
-    padding: 1em;
-}
-
-.container:hover .hidden-content {
-    display: block;
-}
-```
-
-<div class="displayed_code_example">
-<style>
-.example-container {
-    font-family: sans-serif;
-    font-size: 16pt;
-    width: 100%;
-    min-width: 200px;
-    max-width: 500px;
-    background-color: #3eb4da;
-}
-
-.tip-header {
-    font-size: 1.5em;
-    padding: 1em;
-    text-align: center;
-    color: #fff;
-    background-color: #18516e;
-}
-
-
-.example-container .hidden-content {
-    display: none;
-    font-size: 1em;
-    padding: 1em;
-}
-
-.example-container:hover .hidden-content {
-    display: block;
-}
-</style>
-
-<div class="example-container">
-    <div class="tip-header">
-        Hover over me for more information...
-
-    </div>
-    <div class="hidden-content">
-        This is some hidden information,
-        that serves to further enlighten your end-user.
-    </div>
+  </div>
 </div>
 
-</div>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/341-work/raw/master/lectureCode/09/display-block-01/display-block-01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/341-work/raw/master/lectureCode/09/display-block-01/) | [**[Live Example]**](https://montana-media-arts.github.io/341-work/lectureCode/09/display-block-01/) |
-
-
-
-
-## Used for Dropdown Menus
+### Used for Dropdown Menus
 
 This same technique can be used for to create dropdown menus.
 
@@ -126,116 +77,103 @@ The following code is one solution to creating a horizontal menu with a dropdown
 
 Please study the following code to understand it better. You should also download the code and play with it via the links under the example.
 
-<div id="code-heading">HTML</div>
+<div class="pen-group">
+  <p data-height="600" data-theme-id="30567" data-slug-hash="OOWrdp" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-09] Dropdown Menu" class="codepen"></p>
 
-{% highlight html linenos %}
-<header class="">
-    <div class="menu-item">
-        <a href="#">Home</a></div>
-    <div class="menu-item">
-        <a href="#">About</a></div>
-    <div class="menu-item dropdown">
-        <a href="#">Dropdown</a>
-        <div class="dropdown-content">
-            <div class="dropdown-item">
-                <a href="#">Dada</a></div>
-            <div class="dropdown-item">
-                <a href="#">Haha</a></div>
-            <div class="dropdown-item">
-                <a href="#">Yesterday</a></div>
-            <div class="dropdown-item">
-                <a href="#">Today</a></div>
-        </div>
+  <div class="pen-result displayed_code_example_pen">
+    <style>
+      /* Set your header design: */
+      header {
+          background-color: #26272b;
+          font-family: sans-serif;
+          font-size: 12pt;
+          text-transform: uppercase;
+          margin: 0;
+          height: 2.15em;
+          text-align: right;
+      }
+
+      /* Set the layout of the menu: */
+      .menu-item {
+          display: inline-block;
+          margin: -1px 1px 0 0;
+          min-width: 8em;
+          text-align: center;
+          background-color: #26272b;
+          padding: 0.5em 0;
+      }
+
+      /* Style the links: */
+      .menu-item a {
+          color: #fff;
+          text-decoration: none;
+      }
+      .menu-item:hover {
+          background-color: #1CCDCA;
+      }
+
+      /* Add a dropdown feature: */
+      .dropdown {
+          display: inline-block;
+      }
+      .dropdown-content {
+          display: none;
+          min-width: 8em;
+          position: absolute;
+          border: 1px solid #000;
+          margin: 0;
+          margin-top: 0.5em;
+          color: #000;
+          background-color: #fff;
+          z-index: 1;
+      }
+      .dropdown-content a {
+          color: #000;
+      }
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+
+      /* Style dropdown item display: */
+      .dropdown-item {
+          display: block;
+          text-align: left;
+          margin: -2px 0;
+          padding: 0.5em;
+          min-width: 7em;
+      }
+      .dropdown-item:hover, .dropdown-item:hover a {
+          color: #baf0ef;
+          background-color: #a2a2a2;
+      }
+    </style>
+    <header class="">
+       <div class="menu-item">
+          <a href="#">Home</a></div>
+       <div class="menu-item">
+          <a href="#">About</a></div>
+       <div class="menu-item dropdown">
+          <a href="#">Dropdown</a>
+          <div class="dropdown-content">
+             <div class="dropdown-item">
+                <a href="#">Services</a></div>
+             <div class="dropdown-item">
+                <a href="#">Press</a></div>
+             <div class="dropdown-item">
+                <a href="#">Careers</a></div>
+             <div class="dropdown-item">
+                <a href="#">Contact</a></div>
+          </div>
+       </div>
+     </header>
+     <div id="main">
+      <h2>Page Title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisi quam, iaculis porta faucibus a, pharetra at purus. Nam sed elit erat. In in consectetur ipsum. Vestibulum vestibulum convallis purus, vestibulum egestas lectus consequat nec. Nullam malesuada, lorem nec blandit accumsan, lectus ante eleifend est, eu dictum nisl diam nec quam. Nunc hendrerit varius sagittis. Cras faucibus semper sapien, tincidunt consequat dolor condimentum sit amet. Donec rhoncus, risus gravida suscipit finibus, nisi ipsum luctus lacus, in mattis arcu sem nec tortor. Phasellus et rhoncus turpis. Donec nec nunc vehicula nisl luctus ultricies a et metus. Nam id nisl feugiat, porta lacus in, euismod diam.</p>
     </div>
-</header>
-{% endhighlight %}
-
-
-<div id="code-ruler"></div>
-<div id="code-heading">CSS</div>
-
-
-{% highlight css linenos %}
-header {
-    background-color: #26272b;
-    font-family: sans-serif;
-    font-size: 16pt;
-    text-transform: uppercase;
-    margin: 0;
-    height: 2.15em;
-}
-
-.menu-item {
-    display: inline-block;
-    margin: 0 0;
-    min-width: 8em;
-    text-align: center;
-    background-color: #26272b;
-    padding: 0.5em 0;
-}
-
-.menu-item a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.menu-item:hover {
-    background-color: #673667;
-}
-
-.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    border: 1px solid #000;
-    margin: 0;
-    margin-top: 0.5em;
-    color: #000;
-    background-color: #fff;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #000;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-item {
-    display: block;
-    text-align: left;
-    margin: 0;
-    padding: 0.5em;
-    min-width: 7em;
-}
-
-.dropdown-item:hover, .dropdown-item:hover a {
-    color: #673667;
-    background-color: #a2a2a2;
-}
-{% endhighlight %}
-
-<div class="displayed_code_example">
-    <div class="embed-responsive" style="padding-bottom:250px"><iframe class="embed-responsive-item" src="https://montana-media-arts.github.io/341-work/lectureCode/09/drop-down-menu-01/" frameborder="0" allowfullscreen></iframe></div>
+  </div>
 </div>
 
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/341-work/raw/master/lectureCode/09/drop-down-menu-01/drop-down-menu-01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/341-work/raw/master/lectureCode/09/drop-down-menu-01/) | [**[Live Example]**](https://montana-media-arts.github.io/341-work/lectureCode/09/drop-down-menu-01/) |
-
-
-## { TODO: }
-
-Please study the following page on menus from w3schools.
-
-- [CSS Navigation Bar](https://www.w3schools.com/css/css_navbar.asp)
-
-
-
-## { TODO: }
-
-You should also read Chapter 13 on Boxes from the Duckett.
+# { TODO: }
+1. Study W3School's fantastic examples of [CSS Navigation Bars](https://www.w3schools.com/css/css_navbar.asp).
+2. Read pages 318-329 of Chapter 13 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).

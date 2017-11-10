@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Margin Examples</title>
+    <style>
+      h2 {
+        text-transform: uppercase;
+        text-align: center;
+      }
+      * {
+        font-family: 'Lato', Arial;
+      }
+
+      /* One */
+      .parent-container-01 {
+          background-color: #79AF33;
+          width: 400px;
+          height: 400px;
+      }
+      .child-container-01 {
+          background-color: gold;
+          width: 50%;
+          height: 50%;
+      }
+      .parent-container-02 {
+          background-color: #79AF33;
+          width: 400px;
+          height: 400px;
+          margin: 10%;
+      }
+      .child-container-02 {
+          margin: 10%;
+          background-color: gold;
+          width: 50%;
+          height: 50%;
+      }
+      /* Two */
+      .body-03 {
+          font-size: 18pt;
+          /*border: 1px solid black;*/
+      }
+      .parent-container-03 {
+          background-color: #79AF33;
+      }
+      .child-container-03 {
+          margin: 6em;
+          padding: 2em;
+          background-color: gold;
+      }
+      /* Three */
+      .parent-container-04 {
+          background-color: #79AF33;
+          padding: 1em;
+      }
+      .child-container-04 {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 2em;
+          margin-bottom: 2em;
+          max-width: 14em;
+          text-align: center;
+          padding: 2em;
+          color: #000;
+          background-color: gold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- One -->
+    <h2>Both Parent and Child Have Set Margins</h2>
+    <div class="parent-container-01">
+        <div class="child-container-01"></div>
+    </div>
+    <div class="parent-container-02">
+        <div class="child-container-02"></div>
+    </div>
+    <hr />
+
+    <!-- Two -->
+    <h2>Child Has Set Margins, Restricted by Parent</h2>
+    <div class="body-03">
+        <div class="parent-container-03">
+            <div class="child-container-03"></div>
+        </div>
+    </div>
+    <hr />
+
+    <!-- Three -->
+    <h2>Using Margins to Center Element</h2>
+    <div class="parent-container-04">
+        <div class="child-container-04">
+            <em>I'm in the middle!</em>
+        </div>
+    </div>
+  </body>
+</html>
