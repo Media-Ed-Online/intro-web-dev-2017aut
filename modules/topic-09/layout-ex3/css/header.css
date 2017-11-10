@@ -1,0 +1,112 @@
+/*------------------------------------------------------------------
+| This stylesheet is for the header and footer of the page or site. |
+-------------------------------------------------------------------*/
+
+header, footer {
+    margin: 0;
+    padding: 0;
+    min-width: 450px;
+    z-index: 1;
+}
+
+footer {
+    color: #FFF;
+    background-color: #27A2DE
+}
+
+footer p {
+    position: relative;
+    font-size: 0.8em;
+    text-align: center;
+    bottom: 0;
+    padding: 2em;
+    margin: 0;
+    width: 100%;
+}
+
+.menu-container {
+    background-color: #D3D7DA;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container .menuitem {
+    display: inline-block;
+    display: inline-block;
+    width: 5em;
+    margin: auto;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #F15F50;
+}
+
+.menu-container .menuitem:hover,
+.menu-container .dropdown:hover {
+    color: #fff;
+    background-color: #F15F50;
+}
+
+.menu-container .dropdown {
+    display: inline-block;
+    width: 10%;
+    min-width: 7em;
+}
+
+.menu-container .dropdown-content {
+    display: none;
+    position: absolute;
+    border: 3px dashed #27435C;
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.menu-container .dropdown-content a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-container .menu-container .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-container .dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 8em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #fff;
+    background-color: #F15F50;
+}
+
+.lower-header {
+    margin: 0;
+    background-color: #F15F50;
+    height: 130px;
+}
+
+.lower-header .site-name {
+    float: left;
+    padding: 25px 10px;
+    margin-left: 0.5em;
+    font-weight: lighter;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.lower-header .site-logo {
+    font-size: 2.5em;
+    float: right;
+    padding: 15px 10px;
+    margin-right: 0.25em;
+}
+
+.site-logo img {
+    height: 80px;
+}

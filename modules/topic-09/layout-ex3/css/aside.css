@@ -1,0 +1,41 @@
+/*----------------------------------------------------------
+| This stylesheet is for the aside, or highlighted content. |
+-----------------------------------------------------------*/
+
+aside.content-side {
+    float: right;
+    margin: 3em;
+    margin-top: 2.5em;
+    padding: 0;
+    width: 15%;
+    min-width: 200px;
+    color: #fff;
+    background-color: #507aa6;
+    font-weight: lighter;
+}
+
+aside .aside-head {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+    background-color: #bf628c;
+}
+
+aside .aside-text {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+aside .aside-text p {
+    font-style: italic;
+    padding: 0.25em 1em;
+    margin: 0;
+    text-align: left;
+}
+
+
+aside .aside-img img {
+    display: block;
+    padding: 1em;
+    margin: auto;
+}

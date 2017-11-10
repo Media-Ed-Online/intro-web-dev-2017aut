@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Example Layout 1</title>
+    <style>
+    /* Style the page: */
+      body {
+        font-size: 16pt;
+        font-family: 'Helvetica Neue', 'helvetica', sans-serif;
+        color: #27435C;
+        background-color: #F1F1F1;
+      }
+
+      /* Set your header design: */
+      header {
+        margin: 0 0 2em 0;
+        padding: 0;
+      }
+
+      /* Set the layout of the menu: */
+      .menu-container {
+        background-color: #D3D7DA;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu-item {
+        display: inline-block;
+        width: 4em;
+        padding: 0.5em 1em;
+        text-align: center;
+        text-decoration: none;
+        color: #F15F50;
+        margin: auto;
+      }
+
+      /* Style the links: */
+      .menu-item:hover, .dropdown:hover {
+        color: #fff;
+        background-color: #F15F50;
+      }
+
+      /* Add a dropdown feature: */
+      .dropdown {
+        display: inline-block;
+        color: #fff;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        border: 3px dashed #27435C;
+        margin: 0;
+        color: #000;
+        background-color: #fff;
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      /* Style dropdown item display: */
+      .dropdown-item {
+        display: block;
+        text-align: left;
+        margin: 0;
+        padding: 0.5em;
+        min-width: 7em;
+      }
+
+      .dropdown-item:hover, .dropdown-item:hover a {
+        color: #fff;
+        background-color: #F15F50;
+      }
+
+      /* Style the lowe header: */
+      .lower-header {
+        margin: 0;
+        background-color: #F15F50;
+        height: 110px;
+      }
+
+      .site-name {
+        float: left;
+        padding: 25px 10px;
+        margin-left: 0.5em;
+        font-weight: lighter;
+        font-size: 2.5em;
+        color: #fff;
+      }
+
+      .site-logo {
+        font-size: 2.5em;
+        float: right;
+        padding: 15px 10px;
+        margin-right: 0.25em;
+      }
+
+      .site-logo img {
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+     <header>
+        <menu class="menu-container">
+           <a href="#" class="menu-item">
+              Home</a>
+           <a href="#" class="menu-item">
+              Catalogue</a>
+           <div class="dropdown">
+              <a href="#" class="menu-item">
+                 Company</a>
+              <div class="dropdown-content">
+                 <a href="#" class="dropdown-item">
+                    About</a>
+                 <a href="#" class="dropdown-item">
+                    Press</a>
+                 <a href="#" class="dropdown-item">
+                    Careers</a>
+                 <a href="#" class="dropdown-item">
+                    Contact</a>
+              </div>
+           </div>
+        </menu>
+        <div class="lower-header">
+           <div class="site-name">
+              Shopping Site
+           </div>
+           <div class="site-logo">
+              <img src="https://tinyurl.com/tag-logo-png" alt="Shopping Site Logo Image">
+           </div>
+        </div>
+     </header>
+     <h3>Site with a Horizontal Menu</h3>
+     <main>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elementum diam ut lorem dapibus fermentum. Nulla facilisi. Proin molestie dictum massa, at ultrices tortor convallis a. Nullam ut dapibus tortor. Aenean et velit id neque mollis pharetra vel in est. Etiam et cursus quam, et facilisis nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</main>
+  </body>
+</html>

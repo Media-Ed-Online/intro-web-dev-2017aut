@@ -1,0 +1,16 @@
+/*----------------------------------------------------------
+| This stylesheet is for the main body of the page or site. |
+-----------------------------------------------------------*/
+
+body {
+    font-size: 16pt;
+    font-family: 'Helvetica Neue', 'helvetica', sans-serif;
+    background-color: #D3D7DA;
+    padding: 0;
+    margin: 0;
+    min-width: 960px;
+}
+
+.clearfix {
+    clear: both;
+}

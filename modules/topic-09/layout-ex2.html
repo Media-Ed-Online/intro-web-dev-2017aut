@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Example Layout 2</title>
+    <style>
+      body {
+          font-size: 16pt;
+          font-family: 'Helvetica Neue', 'helvetica', sans-serif;
+          background-color: #fff;
+          padding: 0;
+          margin: 0;
+      }
+      .main-container {
+          margin: auto;
+          margin-top: 0;
+          padding-top: 0;
+          min-width: 600px;
+          max-width: 1280px;
+          background-color: #fff;
+          clear: both;
+      }
+      .main-container menu {
+          margin: 0;
+          padding: 0;
+          float: left;
+          width: 25%;
+          height: 1000px;
+          background-color: #D3D7DA;
+      }
+      .site-name {
+          padding: 1em 0.5em;
+          margin-left: 0;
+          font-weight: lighter;
+          font-size: 1.5em;
+          color: #fff;
+          background-color: #27435C;
+      }
+
+      .site-logo {
+          margin: 0 auto;
+          border-top: 3px dotted #27435C;
+          width: 75%;
+          text-align: right;
+      }
+
+      .site-logo img {
+          height: 100px;
+          margin-top: -25px;
+          margin-right: -20px;
+      }
+
+      .side.menuitem {
+          display: block;
+          font-size: 1em;
+          font-weight: lighter;
+          padding: 0.5em;
+          margin: 0.1em 0;
+          text-decoration: none;
+          background-color: #F15F50;
+          color: #fff;
+      }
+      .side.menuitem:hover {
+          background-color: #27A2DE;
+          color: #fff;
+      }
+      .dropdown-content {
+          display: none;
+      }
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+      .side.menuitem.dropdown-item {
+          font-size: 0.8em;
+          padding-left: 2em;
+          margin-top: 0.05em;
+          background-color: #27A2DE;
+          color: #fff;
+      }
+      .dropdown:hover .dropdown-content .side.menuitem.dropdown-item:hover {
+          background-color: #fff;
+          color: #27A2DE;
+      }
+      .main-container main {
+          margin: 0;
+          padding: 0;
+          float: left;
+          width: 75%;
+          min-width: 399px;
+          height: 100%;
+          background-color: #fff;
+      }
+      .main-container h1 {
+          text-align: center;
+          font-weight: lighter;
+          letter-spacing: 0.4em;
+          word-spacing: 1em;
+          padding: 2em 0 0 0;
+          margin-top: 0 !important;
+          color: #27435C;
+          background-color: #fff;
+      }
+      .main-container p {
+          padding: 2em;
+          text-indent: 1.5em;
+          line-height: 1.5em;
+          text-align: justify;
+          color: #27435C;
+          margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <menu>
+        <div class="site-name">
+        Shopping Site
+        </div>
+          <div class="side-menu-item">
+            <a href="#" class="side menuitem">
+              Home</a>
+            <div class="side dropdown">
+              <a href="#" class="side menuitem">
+                + Company</a>
+                <div class="dropdown-content">
+                  <a href="#" class="side menuitem dropdown-item">
+                     About</a>
+                  <a href="#" class="side menuitem dropdown-item">
+                     Press</a>
+                  <a href="#" class="side menuitem dropdown-item">
+                     Careers</a>
+                  <a href="#" class="side menuitem dropdown-item">
+                     Contact</a>
+            </div>
+          </div>
+            <a href="#" class="side menuitem">
+              Catalogue</a>
+        </div>
+      </menu>
+
+      <main>
+        <h1>Center Content</h1>
+        <div class="site-logo">
+          <img src="https://tinyurl.com/tag-logo-png" alt="Shopping Site Logo Image">
+        </div>
+        <p>Occaecat incididunt et nostrud consectetur nostrud quis quis ad velit laboris nulla nostrud eiusmod consequat. Do duis eiusmod et fugiat Lorem velit anim sint do et adipisicing fugiat veniam. Elit Lorem sint commodo quis minim in est. Cupidatat aute consectetur velit Lorem excepteur tempor minim. Ipsum nostrud est veniam labore laboris eiusmod eiusmod laboris minim aliquip anim Lorem. Consectetur fugiat ipsum Lorem commodo occaecat esse occaecat excepteur. Ullamco est laboris enim velit eu laboris pariatur exercitation proident amet.</p>
+        <p>Eu eiusmod aliquip amet consequat eu dolore nulla non. Nisi veniam ea dolore sit incididunt commodo nostrud magna veniam consectetur consequat proident sit commodo. Eu proident ullamco excepteur eiusmod eu amet aute sit magna id sit sunt dolor quis. In ut tempor commodo ad consectetur aliqua in in deserunt aliqua do ut. Quis amet qui enim laboris anim dolor proident nulla ipsum proident amet magna ut cillum ea. Ut in magna voluptate proident do consequat magna officia proident occaecat. Enim exercitation velit et ea minim quis adipisicing fugiat duis sit magna.</p>
+        <p>Enim elit veniam cupidatat incididunt aliquip incididunt nostrud ea proident ut officia dolor. Elit adipisicing fugiat consectetur velit dolor est fugiat esse ex consectetur nostrud aliqua occaecat deserunt tempor dolore laboris. Cupidatat incididunt culpa qui et veniam deserunt proident ea consectetur.</p>
+        <p>Exercitation enim occaecat ex magna duis laborum laborum ex voluptate dolor consequat laborum adipisicing est. Nostrud commodo aute pariatur fugiat aute laborum ut magna esse tempor commodo ullamco dolore occaecat. Eu nisi ipsum amet ipsum nostrud do eiusmod eiusmod consequat sunt. Aliqua do exercitation commodo enim veniam sunt ipsum adipisicing irure proident eiusmod exercitation velit quis duis est ad. Veniam duis est in ut quis nisi enim sit fugiat exercitation aliqua deserunt elit reprehenderit adipisicing.</p>
+      </main>
+    </div>
+  </body>
+</html>
