@@ -103,3 +103,16 @@ div.main-container {
   color: #27435C;
   margin-top: 0;
 }
+
+.dress-gallery {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.dress-gallery img {
+  width: 20%;
+  margin: .5em;
+  display: inline;
+  border-radius: 0px;
+}
