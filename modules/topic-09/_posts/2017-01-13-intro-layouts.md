@@ -246,7 +246,7 @@ Finally, let's take elements from all of the above and make a simple webpage!
 
 This page has a header, side menu, main content section, an aside, and footer.
 
-Rather than try to print out all of the code for this example, you should [view it in your browser]({{site.baseurl}}/modules/topic-09/layout-ex3/), or [download the files for yourself]({{site.baseurl}}/modules/topic-09/layout-ex3.zip).
+Rather than try to print out all of the code for this example, you should [view it in your browser]({{site.baseurl}}/modules/topic-09/layout-ex3/), or [download the files for yourself]({{site.baseurl}}/modules/topic-09/files/layout-ex3.zip).
 
 <div class="pen-group">
   <p data-height="600" data-theme-id="30567" data-slug-hash="OOpwga" data-default-tab="html,css" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="[Topic-09]  Full Site Layout" class="codepen"></p>
@@ -255,6 +255,6 @@ Rather than try to print out all of the code for this example, you should [view 
 
 
 # { TODO: }
-1. <a href="{{site.baseurl}}/modules/topic-09/layout-ex3/" target="_blank">Open the example in a separate tab</a> and resize the window to observe the difference.
+1. <a href="{{site.baseurl}}/modules/topic-09/layout-ex3/" target="_blank">Open the example in a separate tab</a> to see it in full. Be sure to view the source code!
 2. Read more about ways to build "[CSS Navigation Bars](https://www.w3schools.com/css/css_navbar.asp)" from W3Schools.
 3. Read pages 377-405 of Chapter 15 in [Duckett](https://github.com/Media-Ed-Online/intro-web-dev/issues/3).

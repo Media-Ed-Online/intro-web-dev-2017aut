@@ -1,6 +1,6 @@
-/*------------------------------------------------------------------
+/*--------------------------------------------------------
 | This stylesheet is for the content of the page or site. |
--------------------------------------------------------------------*/
+---------------------------------------------------------*/
 
 div.main-container {
     position: relative;
@@ -115,4 +115,53 @@ div.main-container {
   margin: .5em;
   display: inline;
   border-radius: 0px;
+}
+
+.coupon {
+   display: block;
+   width: 400px;
+   margin: 2em auto;
+   background-color: #27A2DE;
+   z-index: 1;
+
+   border-top-width: 5px;
+   border-bottom-width: 10px;
+   border-left-width: 2px;
+   border-right-width: 10px;
+
+   border-style: dashed;
+   border-bottom-style: solid;
+   border-left-style: dotted;
+   border-right-style: solid;
+
+   border-top-color: #666;
+   border-bottom-color: #222;
+   border-left-color: #999;
+   border-right-color: #333;
+}
+.coupon h3 {
+  font-size: 1.5em;
+  text-align: left;
+  padding: .5em;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: lighter;
+  background-color: #27435C;
+  margin: 0;
+}
+.coupon p {
+   text-align: center;
+   font-size: inherit;
+   margin: 0 !important;
+}
+.coupon a {
+  text-decoration: none;
+  color: #FFF;
+}
+.coupon img {
+   width: 200px;
+   position: relative;
+   top: -3em;
+   left: 1em;
+   z-index: 2;
 }
