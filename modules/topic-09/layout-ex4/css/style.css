@@ -1,0 +1,201 @@
+/*------------------------
+| CSS for General Styling |
+ ------------------------*/
+
+ /* SITE-WIDE ELEMENTS: */
+ body {
+   background-color: lightblue;
+   background-image: url('../images/site-border.png');
+   background-repeat: repeat-x;
+   background-attachment: fixed;
+ }
+ h1, span {
+   margin: 0;
+   font-family: 'Pacifico', cursive;
+   color: saddlebrown;
+   text-align: center;
+ }
+h4 {
+  font-family: 'Arvo-B', serif;
+  font-size: 1em;
+}
+q {
+   font-family: 'Arvo-BI', serif;
+   font-size: 2em;
+ }
+ a {
+   font-family: 'Arvo-B', serif;
+   text-decoration: none;
+   color: inherit;
+ }
+ * {
+   font-family: 'Arvo', serif;
+   color: #000;
+ }
+
+
+/* LAYOUT AREAS: */
+.main-container {
+  width: 60%;
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 3em;
+
+  background-color: #FFF;
+  border-right: 15px solid #999;
+  border-bottom: 15px solid #666;
+}
+header {
+
+}
+main {
+  text-align: justify;
+  margin: 3em 0;
+}
+footer {
+  text-align: center;
+  font-size: .75em;
+  margin-top: 3em;
+}
+
+
+/* LAYOUT PIECES: */
+
+/* Site information: */
+.site-heading {
+  width: 50%;
+  margin: 4em auto;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+
+  border: 5px double salmon;
+
+  text-align: center;
+}
+#site-title {
+  margin: .5em;
+  line-height: 1em;
+  font-size: 3em;
+}
+#site-slogan {
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: salmon;
+}
+
+.site-logo {
+  margin: auto;
+  margin-top: -60px;
+  display: block;
+  postion: relative;
+  z-index: 2;
+}
+.under-img {
+  width: 60px;
+  height: 60px;
+  z-index: 3;
+}
+.over-img {
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+}
+.over-img:hover {
+  opacity: 0;
+}
+
+/* Blog post: */
+.post-title {
+
+}
+.post-subtitle {
+  margin-left: 15px;
+  padding: 5px;
+  border-left: 5px double salmon;
+}
+.post-content {
+  line-height: 1.45em;
+}
+.post-content p {
+  margin: 2em 0em;
+}
+.post-content p:first-letter {
+  margin-right: 1px;
+  font-size: 2em;
+  font-weight: 400;
+  color: chocolate;
+}
+/* Pull quote: */
+.pull-quote {
+  width: 30%;
+  min-width: 200px;
+  padding: 1.5em;
+  margin: 2em 0 0 2em;
+  float: right;
+
+  background-image: url('../images/quote-left.svg');
+  background-size: 75px 75px;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  text-align: right;
+}
+.pull-quote:hover {
+  background-image: url('../images/quote-right.svg');
+  background-size: 75px 75px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+/* Read more: */
+.archives-link {
+  min-height: 5em;
+}
+.button {
+  width: 12em;
+  margin: auto;
+  padding: 0em .5em;
+  position: relative;
+
+  background-color: chocolate;
+  border-color: #999 #666 #666 #999;
+  border-width: 10px 15px 15px 10px;
+  border-style: solid;
+
+  text-align: center;
+}
+.button:active {
+  background-color: saddlebrown;
+  border-color: #666 #999 #999 #666;
+  border-width: 15px 10px 10px 15px;
+  border-style: solid;
+}
+.button:active {
+  background-color: saddlebrown;
+  border-color: #666 #999 #999 #666;
+  border-width: 15px 10px 10px 15px;
+  border-style: solid;
+}
+.button h4 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.button h4:hover {
+  text-decoration: underline overline;
+  text-decoration-color: white;
+  text-decoration-style: wavy;
+}
+.button h4:active {
+  color: salmon;
+  text-decoration: underline overline;
+  text-decoration-color: salmon;
+  text-decoration-style: wavy;
+}
+
+/* Decorative line break: */
+.line {
+  border-top: 5px double salmon;
+}

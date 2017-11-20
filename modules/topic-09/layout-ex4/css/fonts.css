@@ -1,0 +1,36 @@
+/*----------------------------------
+| CSS with Font-Linking Information |
+ ----------------------------------*/
+
+/* Linking a Google font: */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+ /* Hosted from your site: */
+ @font-face {
+     font-family: 'Arvo';
+     src:
+         url('../fonts/Arvo-Regular.ttf') format('opentype');
+     font-weight: normal;
+     font-style: normal;
+ }
+ @font-face {
+     font-family: 'Arvo-I';
+     src:
+         url('../fonts/Arvo-Italic.ttf') format('opentype');
+     font-weight: normal;
+     font-style: italic;
+ }
+ @font-face {
+     font-family: 'Arvo-B';
+     src:
+         url('../fonts/Arvo-Bold.ttf') format('opentype');
+     font-weight: bold;
+     font-style: normal;
+ }
+ @font-face {
+     font-family: 'Arvo-BI';
+     src:
+         url('../fonts/Arvo-BoldItalic.ttf') format('opentype');
+     font-weight: bold;
+     font-style: italic;
+ }
