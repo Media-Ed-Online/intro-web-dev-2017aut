@@ -41,9 +41,10 @@ For body content, I'm liking [_**Arvo**_](https://fonts.google.com/specimen/Arvo
 
 #### Sizes
 
-- Large:
-- Standard:
-- Small: 14px
+- Extra Large: 3em (48px); site information
+- Large: 2em (32px); pull-quotes, :first-letter
+- Regular: 1em (16px); body content
+- Small: .75em (12px); copywrite exclusively
 
 ---
 
