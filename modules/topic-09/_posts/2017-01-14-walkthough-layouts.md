@@ -60,13 +60,19 @@ Styling the basic pieces, and an intro to DIVs and classes.
 <h3 id="tut-5">Step 5: Site Heading and Slogan</h3>
 Creating a site information area at the top of your page, which displays the site's title, slogan, and...
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244108602?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
+
 
 <h3 id="tut-6">Step 6: Interactive Site Logo</h3>
 ...a site logo that changes on hover.
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244114956?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
+
 
 <h3 id="tut-7">Step 7: Large Content Area(s)</h3>
 First creating a big box for a large body of text, then adding typographical styling and pseudo classes to make it visually interesting.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244120327?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
 
 <h3 id="tut-8">Step 8: Small Content Area(s)</h3>
