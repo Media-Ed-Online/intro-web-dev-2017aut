@@ -20,7 +20,7 @@ If you're still a little uncertain how all this code comes together, please comp
 This guide is broken up into 10 areas, so you can just view what you need help on:
 1. <a href="#tut-1">Project Overview</a> (files, linking, stucture)
 2. <a href="#tut-2">Calling Fonts</a> (downloaded and through Google API)
-3. <a href="#tut-3">General Styling</a> (backgrounds, chainging selectors)
+3. <a href="#tut-3">General Styling</a> (backgrounds, creating selectors)
 4. <a href="#tut-4">Main Layout Areas</a> (the basic pieces)
 5. <a href="#tut-5">Site Heading and Slogan</a> (display, alignment)
 6. <a href="#tut-6">Interactive Site Logo</a> (hovers, placement, position)
@@ -43,7 +43,7 @@ Using fonts you've downloaded, and ones you're importing from Google Fonts.
 
 
 <h3 id="tut-3">Step 3: General Styling</h3>
-Appling fonts, chaining selectors, and adding background images and colors.
+Appling fonts, creating selectors, and adding background images and colors.
 
 
 <h3 id="tut-4">Step 4: Main Layout Areas</h3>
