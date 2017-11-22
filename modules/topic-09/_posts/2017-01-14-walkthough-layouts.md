@@ -52,7 +52,7 @@ Applying fonts, creating selectors, and adding background images and colors.
 <h3 id="tut-4">Step 4: Main Layout Areas</h3>
 Styling the basic pieces, and an intro to DIVs and classes.
 
-**NOTE:** At 09:00, I gave you the wrong property. It should be `max-value: 700px;` not `min-value: 700px;`.
+**NOTE:** At 09:00, I gave you the wrong property. It should be `max-value: 700px;` not `min-value: 700px;`.<br />
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244104033?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -71,6 +71,8 @@ Creating a site information area at the top of your page, which displays the sit
 
 <h3 id="tut-7">Step 7: Large Content Area(s)</h3>
 First creating a big box for a large body of text, then adding typographical styling and pseudo classes to make it visually interesting.
+
+**NOTE:** `:first-letter` is a pseudo-element, not a pseudo-class.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244120327?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
