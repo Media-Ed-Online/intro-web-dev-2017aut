@@ -44,11 +44,17 @@ Using fonts you've downloaded, and ones you're importing from Google Fonts.
 
 
 <h3 id="tut-3">Step 3: General Styling</h3>
-Appling fonts, creating selectors, and adding background images and colors.
+Applying fonts, creating selectors, and adding background images and colors.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244098332?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
 
 <h3 id="tut-4">Step 4: Main Layout Areas</h3>
-Separating your site into smaller pieces to style.
+Styling the basic pieces, and an intro to DIVs and classes.
+
+**NOTE:** At 09:00, I gave you the wrong property. It should be `max-value: 700px;` not `min-value: 700px;`.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244104033?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
 
 <h3 id="tut-5">Step 5: Site Heading and Slogan</h3>
