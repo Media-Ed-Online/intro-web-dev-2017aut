@@ -8,6 +8,8 @@ module: 09
 
 On the previous page you got a taste of layouts with the "Shoping Site" product page. Here, we'll explore how we could build a blog page in under 2 hours, all with the power of CSS.
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/243960837?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
+
 If you're still a little uncertain how all this code comes together, please complete this tutorial using the files found in the "follow-along" folder:
 
 1. [View the completed site]({{site.baseurl}}/modules/topic-09/layout-ex4/) in a new tab.
@@ -31,9 +33,13 @@ This guide is broken up into 10 areas, so you can just view what you need help o
 <h3 id="tut-1">Step 1: Project Overview</h3>
 Flies, linking, and site structure.
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244068008?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
+
 
 <h3 id="tut-2">Step 2: Calling Fonts</h3>
 Using fonts you've downloaded, and ones you're importing from Google Fonts.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244075708?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
 
 <h3 id="tut-3">Step 3: General Styling</h3>
