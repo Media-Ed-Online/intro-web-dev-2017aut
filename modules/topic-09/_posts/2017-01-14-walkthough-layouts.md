@@ -8,8 +8,7 @@ module: 09
 
 On the previous page you got a taste of layouts with the "Shoping Site" product page. Here, we'll explore how we could build a blog page in under 3 hours, all with the power of CSS.
 
-<!--
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/243960837?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>-->
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/243960837?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
 If you're still a little uncertain how all this code comes together, please complete this tutorial using the files found in the "follow-along" folder:
 
@@ -91,6 +90,17 @@ Creating a linking button using pseudo classes.
 
 <h3 id="tut-10">Step 10: Menu</h3>
 Creating a navigation bar to house links to your site pages and social media accounts, as well as adding a dropdown menu to organize content.
+
+**NOTE:** At 27:00, I mispelled "width" which is why my `.menu-item` selections weren't sizing or centering. The element should look like
+
+```
+#site-links .menu-item {
+  width: 6em;
+  padding: .5em 1em;
+  display: inline-block;
+```
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244167503?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
 
 # { TODO: }
