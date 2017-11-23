@@ -25,9 +25,9 @@ This guide is broken up into 10 areas, so you can just view what you need help o
 4. <a href="#tut-4">Main Layout Areas</a> (the basic pieces)
 5. <a href="#tut-5">Site Heading and Slogan</a> (display, alignment)
 6. <a href="#tut-6">Interactive Site Logo</a> (hovers, placement, position)
-7. <a href="#tut-7">Large Content Areas</a> (typographical styling, pseudo classes)
+7. <a href="#tut-7">Large Content Areas</a> (typographical styling, pseudo elements)
 8. <a href="#tut-8">Small Content Areas</a> ("pull quotes" or asides)
-9. <a href="#tut-9">Buttons</a> (pseudo elements)
+9. <a href="#tut-9">Buttons</a> (pseudo classes)
 10. <a href="#tut-10">Menus</a> (navigation bars and dropdowns)
 
 
@@ -70,7 +70,7 @@ Creating a site information area at the top of your page, which displays the sit
 
 
 <h3 id="tut-7">Step 7: Large Content Area(s)</h3>
-First creating a big box for a large body of text, then adding typographical styling and pseudo classes to make it visually interesting.
+First creating a big box for a large body of text, then adding typographical styling and pseudo elements to make it visually interesting.
 
 **NOTE:** `:first-letter` is a pseudo-element, not a pseudo-class.
 
@@ -80,9 +80,11 @@ First creating a big box for a large body of text, then adding typographical sty
 <h3 id="tut-8">Step 8: Small Content Area(s)</h3>
 Using divs and floats to "pull" quotes out from the main body.
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244154043?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
+
 
 <h3 id="tut-9">Step 9: Button</h3>
-Creating a linking button using pseudo elements.
+Creating a linking button using pseudo classes.
 
 
 <h3 id="tut-10">Step 10: Menu</h3>
