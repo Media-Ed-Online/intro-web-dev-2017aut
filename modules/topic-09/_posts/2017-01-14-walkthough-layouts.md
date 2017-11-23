@@ -6,7 +6,7 @@ module: 09
 ## Using CSS:<br/>A Step-by-Step Tutorial
 <img src="./../../../img/arrow-divider.svg" style="width: 75px; border: none;" />
 
-On the previous page you got a taste of layouts with the "Shoping Site" product page. Here, we'll explore how we could build a blog page in under 2 hours, all with the power of CSS.
+On the previous page you got a taste of layouts with the "Shoping Site" product page. Here, we'll explore how we could build a blog page in under 3 hours, all with the power of CSS.
 
 <!--
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/243960837?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>-->
@@ -85,6 +85,8 @@ Using divs and floats to "pull" quotes out from the main body.
 
 <h3 id="tut-9">Step 9: Button</h3>
 Creating a linking button using pseudo classes.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/244158069?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
 
 <h3 id="tut-10">Step 10: Menu</h3>
