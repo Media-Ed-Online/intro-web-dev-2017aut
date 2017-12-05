@@ -8,9 +8,7 @@ module: 09
 
 On the previous page you got a taste of layouts with the "Shoping Site" product page. Here, we'll explore how we could build a blog page in under 3 hours, all with the power of CSS.
 
-<div class="pen-group" style="margin: 100px 100px 100px -100px; width: 130%;">
-<iframe src="https://embed.plnkr.co/plunk/UOgE6A?show=style.css,preview" frameborder="0" width="100%" height="600px"></iframe>
-</div>
+<iframe src="https://embed.plnkr.co/plunk/UOgE6A?show=style.css,preview" frameborder="0" width="130%" height="600px" style="margin: 100px 100px 100px -100px; border: 30px solid #F49626;"></iframe>
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/243960837?color=F49626&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
